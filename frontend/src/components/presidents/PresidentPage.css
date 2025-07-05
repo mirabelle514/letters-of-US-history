@@ -1,0 +1,828 @@
+.president-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 20px;
+  font-family: 'Georgia', serif;
+}
+
+.president-nav {
+  max-width: 1200px;
+  margin: 0 auto 20px;
+  padding: 15px 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.nav-menu-item {
+  background: #2c3e50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-menu-item:hover {
+  background: #34495e;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.president-header {
+  max-width: 1200px;
+  margin: 0 auto 40px;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.back-button {
+  background: #2c3e50;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  max-width: 1200px;
+  margin: 0 auto 20px auto;
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+
+.back-button:hover {
+  background: #34495e;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.president-info h1 {
+  font-size: 3.5rem;
+  color: #2c3e50;
+  margin: 0 0 10px 0;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.president-number {
+  font-size: 1.2rem;
+  color: #95a5a6;
+  text-align: center;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.president-years {
+  font-size: 1.5rem;
+  color: #7f8c8d;
+  text-align: center;
+  margin: 0;
+  font-style: italic;
+}
+
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 30px;
+}
+
+/* Letter Section */
+.letter-section {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #3498db;
+  text-align: left;
+}
+
+.letter-section h2 {
+  color: #2c3e50;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  text-align: left;
+  font-weight: 400;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 15px;
+}
+
+.letter-content {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 30px;
+  border: 1px solid #e9ecef;
+}
+
+.letter-header {
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.letter-header p {
+  font-size: 1.1rem;
+  color: #495057;
+  margin: 0;
+}
+
+.letter-body p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  text-align: left;
+  text-indent: 0;
+}
+
+.letter-body p:first-child {
+  text-indent: 0;
+}
+
+/* Biographical Section */
+.biographical-section {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.biographical-section h2 {
+  color: #2c3e50;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 400;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 15px;
+}
+
+.biographical-content {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 30px;
+  border: 1px solid #e9ecef;
+}
+
+.biographical-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.biographical-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.biographical-content li {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2c3e50;
+  margin-bottom: 12px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.biographical-content li::before {
+  content: "•";
+  color: #2c3e50;
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Milestones Section */
+.milestones-section {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.milestones-section h2 {
+  color: #2c3e50;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 400;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 15px;
+}
+
+.milestones-content {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 30px;
+  border: 1px solid #e9ecef;
+}
+
+.milestones-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.milestones-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.milestones-content li {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2c3e50;
+  margin-bottom: 12px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.milestones-content li::before {
+  content: "•";
+  color: #2c3e50;
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Personal Life Section */
+.personal-life-section {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.personal-life-section h2 {
+  color: #2c3e50;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 400;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 15px;
+}
+
+.personal-life-content {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 30px;
+  border: 1px solid #e9ecef;
+}
+
+.personal-life-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.personal-life-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.personal-life-content li {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2c3e50;
+  margin-bottom: 12px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.personal-life-content li::before {
+  content: "•";
+  color: #2c3e50;
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Historical Legacy Section */
+.legacy-section {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.legacy-section h2 {
+  color: #2c3e50;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 400;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 15px;
+}
+
+.legacy-content {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 30px;
+  border: 1px solid #e9ecef;
+}
+
+.legacy-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.legacy-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.legacy-content li {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2c3e50;
+  margin-bottom: 12px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.legacy-content li::before {
+  content: "•";
+  color: #2c3e50;
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Post-Presidency & Death Section */
+.post-presidency-section {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.post-presidency-section h2 {
+  color: #2c3e50;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 400;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 15px;
+}
+
+.post-presidency-content {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 30px;
+  border: 1px solid #e9ecef;
+}
+
+.post-presidency-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.post-presidency-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-presidency-content li {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2c3e50;
+  margin-bottom: 12px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.post-presidency-content li::before {
+  content: "•";
+  color: #2c3e50;
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Analysis Section */
+.analysis-section {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.analysis-section h2 {
+  color: #2c3e50;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 400;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 15px;
+}
+
+.analysis-content {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 30px;
+  border: 1px solid #e9ecef;
+}
+
+.analysis-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+/* Themes Section */
+.themes-section {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #f39c12;
+}
+
+.themes-section h2 {
+  color: #2c3e50;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 400;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 15px;
+}
+
+.themes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.theme-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.theme-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Context Section */
+.context-section {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #27ae60;
+}
+
+.context-section h2 {
+  color: #2c3e50;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 400;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 15px;
+}
+
+.context-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2c3e50;
+  text-align: justify;
+}
+
+/* Sources Section */
+.sources-section {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #9b59b6;
+}
+
+/* Navigation Section */
+.navigation-section {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #34495e;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.timeline-button {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.home-button {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.prev-president {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.next-president {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.sources-section h2 {
+  color: #2c3e50;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 400;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 15px;
+}
+
+.sources-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.source-item {
+  background: #f8f9fa;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border-left: 4px solid #9b59b6;
+  font-size: 0.95rem;
+  color: #495057;
+  line-height: 1.6;
+}
+
+/* Link styling */
+.text-link {
+  color: #2c5aa0;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.text-link:hover {
+  color: #1a365d;
+  text-decoration: none;
+}
+
+.text-link:visited {
+  color: #553c9a;
+}
+
+/* Utility Classes for Text Formatting */
+.text-bold {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.text-header {
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+}
+
+.text-section {
+  font-weight: 600;
+  color: #3498db;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.text-emphasis {
+  font-weight: 500;
+  color: #3498db;
+  font-style: italic;
+}
+
+.text-quote {
+  font-style: italic;
+  color: #7f8c8d;
+  border-left: 3px solid #3498db;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+}
+
+.text-break {
+  border-top: 1px solid #e9ecef;
+  margin: 2rem 0;
+  padding-top: 1rem;
+}
+
+.text-divider {
+  text-align: center;
+  color: #95a5a6;
+  font-size: 0.9rem;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.text-divider::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #e9ecef;
+  z-index: 1;
+}
+
+.text-divider span {
+  background: white;
+  padding: 0 1rem;
+  position: relative;
+  z-index: 2;
+}
+
+/* Loading and Error States */
+.loading-container,
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-container p,
+.error-container p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  margin: 10px 0;
+}
+
+.error-container h2 {
+  color: #e74c3c;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .president-page {
+    padding: 10px;
+  }
+  
+  .president-header {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+    .president-info h1 {
+    font-size: 2.5rem;
+  }
+
+  .president-number {
+    font-size: 1rem;
+  }
+
+  .president-years {
+    font-size: 1.2rem;
+  }
+  
+  .letter-section,
+  .analysis-section,
+  .themes-section,
+  .context-section,
+  .sources-section {
+    padding: 25px;
+  }
+  
+  .themes-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .letter-content {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .president-info h1 {
+    font-size: 2rem;
+  }
+
+  .president-number {
+    font-size: 0.9rem;
+  }
+  
+  .letter-section h2,
+  .analysis-section h2,
+  .themes-section h2,
+  .context-section h2,
+  .sources-section h2 {
+    font-size: 1.8rem;
+  }
+  
+  .letter-body p,
+  .analysis-content p,
+  .context-section p {
+    font-size: 1rem;
+  }
+  
+  .nav-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav-button {
+    width: 100%;
+    max-width: 300px;
+  }
+} 

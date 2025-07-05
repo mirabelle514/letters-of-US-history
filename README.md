@@ -38,11 +38,13 @@ This project combines historical research with creative writing to provide insig
 ### Backend Setup
 
 1. Navigate to the backend directory:
+
    ```bash
    cd backend
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
@@ -53,11 +55,13 @@ This project combines historical research with creative writing to provide insig
    - Or use MongoDB Atlas: `MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/letters-of-us-history`
 
 4. Run the data migration (creates placeholder chapters for all presidents):
+
    ```bash
    node migrate-data.js
    ```
 
 5. Start the development server:
+
    ```bash
    npm run dev
    ```
@@ -67,16 +71,19 @@ The backend will be running on `http://localhost:5000`
 ### Frontend Setup
 
 1. Navigate to the frontend directory:
+
    ```bash
    cd frontend
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Start the development server:
+
    ```bash
    npm start
    ```
@@ -126,7 +133,7 @@ Each presidential chapter contains:
 
 ## Project Structure
 
-```
+```jsx
 letters-of-US-history/
 ├── backend/
 │   ├── models/
