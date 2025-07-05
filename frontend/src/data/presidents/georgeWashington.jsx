@@ -20,29 +20,35 @@ Your servant and friend, G. Washington
 `
   },
   biographical: [
-    'Born February 22, 1732',
-    'Served two terms, April 30, 1789 – March 4, 1797',
-    'Unanimously elected twice',
-    'Established key precedents in governance—including creating the cabinet, setting the tradition of a two-term presidency, leading the Whiskey Rebellion suppression, and issuing the 1793 Neutrality Proclamation',
-    'Oversaw key developments: First Bank, assumption of state debts, establishment of the Mint and Customs Service, founding the Navy, and success with the Jay Treaty and Treaty of San Lorenzo'
+    'Born February 22, 1732 in Virginia',
+    'Served two terms: first inaugurated April 30, 1789, left office March 4, 1797',
+    'Unanimously elected by the Electoral College in both 1789 and 1792',
+    'Established key precedents: creation of the Cabinet; set the informal two‑term limit; led suppression of the Whiskey Rebellion; issued the Proclamation of Neutrality (1793)',
+    'Oversaw developments: chartering the First Bank (1791); federal assumption of state debts; founding of the U.S. Mint, Customs Service, and Navy; negotiated the Jay Treaty (1795) and Pinckney\'s Treaty (Treaty of San Lorenzo)'
   ],
   presidencyFacts: `Set standards with his Farewell Address warning against political factions and foreign entanglements.`,
-    milestones: [
-    'First inauguration in New York (April 30, 1789) and capital relocations to Philadelphia (1790) before D.C. completed',
-    'Neutral stance maintained during French Revolutionary Wars; issued neutrality proclamation in 1793'
+  milestones: [
+    'April 30, 1789: First inauguration took place in New York City',
+    '1790: Federal government moved to Philadelphia until Washington D.C. readiness',
+    '1793: Issued Proclamation of Neutrality amid French Revolutionary Wars',
+    '1794: Quelled Whiskey Rebellion',
+    '1795: Jay Treaty signed',
+    'September 19, 1796: Farewell Address published'
   ],
   personalLife: [
-    'Owned enslaved workers at both Mount Vernon and presidential residences in New York and Philadelphia',
-    'Married Martha Dandridge Custis in 1759',
-    'No biological children, but raised Martha\'s children from her previous marriage',
-    'Retired to Mount Vernon after presidency'
+    'Owned enslaved people at Mount Vernon as well as in presidential residences',
+    'Married Martha Dandridge Custis in 1759; they had no biological children, but raised her two children from her first marriage',
+    'Retired to Mount Vernon after leaving office',
+    'Died December 14, 1799, at Mount Vernon; buried there with full military honors'
   ],
   impactAndLegacy: [
-    'Widely regarded as among the top U.S. presidents',
-    'Consistently rated highly in public opinion and scholarly surveys',
-    'Established the two-term tradition that lasted until FDR',
-    'Set the standard for presidential dignity and restraint',
-    'Created the cabinet system and executive branch structure'
+    'Holds enduring status as one of the nation\'s greatest presidents, consistently ranking in the top 3–5 in scholarly evaluations',
+    'His Farewell Address cautioned against political factions and entangling foreign alliances, shaping U.S. policy for generations',
+    'His choice to retire after two terms created an important presidential tradition upheld until F.D.R.',
+    'Washington privately grew uneasy about slavery, publicly condemning the slave trade (e.g., in the 1774 Fairfax Resolves)',
+    'By the 1790s, he expressed remorse and intent to end slavery gradually, though never publicly, citing legislative constraints',
+    'In his July 1799 will, he directed that his 123–124 personally owned slaves be freed after Martha\'s death; dower slaves were not legally his to free',
+    'Martha Washington freed the enslaved individuals on January 1, 1801'
   ],
   postPresidency: [
     'Washington\'s Farewell Address warned against excessive partisanship and permanent foreign alliances',
@@ -76,15 +82,21 @@ Washington struggled throughout his eight-year presidency to hold rival factions
 George Washington's presidency has generally been viewed as one of the most successful, and he is often considered to be one of the three greatest American presidents ever. Modern historians consistently rank him among the top three presidents alongside Lincoln and Franklin Roosevelt. Washington recognized the structural importance of leaving office willingly, understanding that Americans needed to learn how to elect, transition, and inaugurate a new president.
 `,
   sources: [
-    '[LINK:https://millercenter.org/president/washington/impact-and-legacy|Miller Center, University of Virginia. "George Washington: Impact and Legacy." Accessed 2025.]',
-    '[LINK:https://www.mountvernon.org/george-washington/the-first-president/ten-facts-about-washingtons-presidency/|Mount Vernon Ladies\' Association. "Ten Facts About Washington\'s Presidency." George Washington\'s Mount Vernon.]',
-    '[LINK:https://en.wikipedia.org/wiki/Presidency_of_George_Washington|National Archives. "Presidency of George Washington." Wikipedia, 2025.]',
-    '[LINK:https://www.history.com/topics/us-presidents/george-washington|History.com. "George Washington: Facts, Revolution & Presidency." Updated February 2025.]',
-    '[LINK:https://www.whitehousehistory.org/|White House Historical Association. "George Washington." Accessed 2025.]',
-    '[LINK:https://www.bidenwhitehouse.archives.gov/about-the-white-house/presidents/george-washington/|White House Archives. "George Washington." Accessed 2025.]',
-    '[LINK:https://time.com/|Time Magazine. "George Washington." Accessed 2025.]',
-    '[LINK:https://www.architecturaldigest.com/|Architectural Digest. "George Washington." Accessed 2025.]',
-    '[LINK:https://thenmusa.org/|The National Museum of the United States Army. "George Washington." Accessed 2025.]'
+    '[LINK:https://millercenter.org/president/washington|Miller Center, University of Virginia. "George Washington." Biography and presidency overview.]',
+    '[LINK:https://www.mountvernon.org/george-washington/|George Washington\'s Mount Vernon (Mount Vernon Ladies\' Association). "George Washington." Facts, presidency, and personal life.]',
+    '[LINK:https://founders.archives.gov/documents/Washington|National Archives – Founders Online. "George Washington." Presidency and documents.]',
+    '[LINK:https://www.whitehousehistory.org/bios/george-washington|White House Historical Association. "George Washington."]',
+    '[LINK:https://en.wikipedia.org/wiki/George_Washington|Wikipedia. "George Washington."]',
+    '[LINK:https://en.wikipedia.org/wiki/Presidency_of_George_Washington|Wikipedia. "Presidency of George Washington."]',
+    '[LINK:https://en.wikipedia.org/wiki/George_Washington_and_slavery|Wikipedia. "George Washington and slavery."]',
+    '[LINK:https://en.wikipedia.org/wiki/George_Washington%27s_Farewell_Address|Wikipedia. "George Washington\'s Farewell Address."]',
+    '[LINK:https://en.wikipedia.org/wiki/First_Bank_of_the_United_States|Wikipedia. "First Bank of the United States."]',
+    '[LINK:https://en.wikipedia.org/wiki/Jay_Treaty|Wikipedia. "Jay Treaty."]',
+    '[LINK:https://en.wikipedia.org/wiki/Pinckney%27s_Treaty|Wikipedia. "Pinckney\'s Treaty (Treaty of San Lorenzo)."]',
+    '[LINK:https://www.history.com/topics/us-presidents/george-washington|History.com. "George Washington: Facts, Revolution & Presidency."]',
+    '[LINK:https://www.battlefields.org/learn/articles/founding-fathers-views-slavery|American Battlefield Trust. "Founding Fathers & Slavery."]',
+    '[LINK:https://www.owleyes.org/text/farewell-address/read/text-of-washingtons-address|Owleyes.org. "Full text of George Washington\'s Farewell Address."]',
+    '[LINK:https://www.thenmusa.org/biographies/george-washington/|National Museum of the United States Army. "George Washington."]'
   ]
 };
 

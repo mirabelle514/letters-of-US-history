@@ -90,6 +90,59 @@ The backend will be running on `http://localhost:5000`
 
 The frontend will be running on `http://localhost:3000`
 
+## Deployment to cPanel
+
+### Step 1: Build the Production Version
+
+1. Navigate to the frontend directory:
+
+   ```bash
+   cd frontend
+   ```
+
+2. Build the production version:
+
+   ```bash
+   npm run build
+   ```
+
+This creates a `build` folder with optimized production files.
+
+### Step 2: Upload to cPanel
+
+1. **Access your cPanel** - Log into your hosting provider's cPanel
+2. **Navigate to File Manager** - Go to the `public_html` folder (or your domain's root directory)
+3. **Upload the build folder contents** - Upload everything from the `frontend/build` folder:
+   - `index.html`
+   - `asset-manifest.json` 
+   - The entire `static` folder (with css and js subfolders)
+4. **Important Notes:**
+   - Upload all files to your domain's root directory (usually `public_html`)
+   - Make sure `index.html` is in the root
+   - Keep the folder structure intact (static/css and static/js folders)
+
+### Step 3: Handle React Router (Important!)
+
+Since the app uses React Router, create a `.htaccess` file in your root directory with this content:
+
+```apache
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+```
+
+This ensures that React Router routes work properly when users navigate directly to URLs like `/presidents/George-Washington`.
+
+### Alternative: Use cPanel's Git Integration
+
+If your hosting provider supports it, you could also:
+1. Connect your GitHub repository directly to cPanel
+2. Set up automatic deployments when you push to main
+3. Configure the build process in cPanel
+
 ## Content Structure
 
 Each presidential chapter contains:
