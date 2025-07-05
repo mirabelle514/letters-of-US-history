@@ -1,4 +1,4 @@
-# Letters of US History
+# From Presidents to Presidents
 
 A dynamic book exploring imagined letters from each U.S. president to their successor, followed by comprehensive historical analysis and sources.
 

@@ -4,13 +4,14 @@ import { presidents } from './presidents';
 import PresidentPage from './components/presidents/PresidentPage';
 import StyleTemplate from './components/presidents/StyleTemplate';
 import { allPresidents } from './data/presidents';
+import Footer from './components/Footer';
 
 // Navigation Component
 function Navigation() {
   return (
     <nav className="nav-container">
       <div className="nav-content">
-        <Link to="/" className="nav-logo">Letters of US History</Link>
+        <Link to="/" className="nav-logo">From Presidents to Presidents</Link>
         <ul className="nav-links">
           <li><Link to="/">All Presidents</Link></li>
           <li><Link to="/timeline">Timeline</Link></li>
@@ -29,10 +30,10 @@ function PresidentsList() {
   return (
     <div className="book-container">
       <div className="book-header">
-        <h1>Letters of US History</h1>
+        <h1>From Presidents to Presidents</h1>
         <p>Imagined letters from each U.S. president to their successor, accompanied by 
-          comprehensive historical analysis. Explore detailed biographies, presidency facts, 
-          key milestones, and lasting legacies for all America's leaders.</p>
+          comprehensive historical analysis. Each page features biographical information, 
+          major milestones, personal life details, historical legacy, and detailed analysis.</p>
       </div>
       <div className="book-content">
         <div className="presidents-grid">
@@ -115,24 +116,22 @@ function About() {
         <div className="chapter-section">
           <h2>Project Overview</h2>
           <p>
-            "Letters of US History" is a unique exploration of American presidential history through 
-            imagined letters from each U.S. president to their successor. This project combines 
-            historical research with creative writing to provide insights into the challenges, 
-            decisions, and legacies of each administration.
+            "From Presidents to Presidents" is my unique exploration of American presidential history through imagined letters from each U.S. president to their successor. This project combines historical research with creative writing to provide insights into the challenges, decisions, and legacies of each administration.
           </p>
           <h3>What You'll Find</h3>
           <ul style={{ marginLeft: '2rem', marginBottom: '1.5rem' }}>
             <li><strong>Imagined Letters:</strong> Creative reconstructions of what each president might have written to their successor</li>
-            <li><strong>Historical Analysis:</strong> Comprehensive examination of each presidency's impact and legacy</li>
-            <li><strong>Historical Context:</strong> Background information to understand the era and circumstances</li>
+            <li><strong>Biographical & Presidency Facts:</strong> Key information about each president's background and time in office</li>
+            <li><strong>Major Dates & Milestones:</strong> Important events and achievements during each presidency</li>
+            <li><strong>Personal Life:</strong> Details about family, character, and personal circumstances</li>
+            <li><strong>Historical Legacy:</strong> Lasting impact and influence on American history</li>
+            <li><strong>Post-Presidency & Death:</strong> Life after office and final years</li>
+            <li><strong>Historical Analysis:</strong> Comprehensive examination of each presidency's significance</li>
             <li><strong>Sources:</strong> Academic and historical references for further reading</li>
           </ul>
           <h3>Methodology</h3>
           <p>
-            Each letter is crafted based on extensive historical research, including presidential 
-            papers, contemporary accounts, and modern historical analysis. The content reflects 
-            the actual challenges, decisions, and concerns of each administration while imagining 
-            the personal reflections that might have been shared in private correspondence.
+            Each letter is crafted based on historical research, including presidential papers, contemporary accounts, and modern historical analysis. The content reflects the actual challenges, decisions, and concerns of each administration while imagining the personal reflections that might have been shared in private correspondence.
           </p>
         </div>
       </div>
@@ -166,6 +165,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/presidents/:name" element={<PresidentPageWrapper />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

@@ -1,6 +1,6 @@
-# President Components
+# Presidents Components
 
-This directory contains React components for displaying individual president pages in the "Letters of US History" application.
+This directory contains React components for displaying individual president pages in the "From Presidents to Presidents" application.
 
 ## Structure
 
