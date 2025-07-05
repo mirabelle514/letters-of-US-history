@@ -139,6 +139,7 @@ This ensures that React Router routes work properly when users navigate directly
 ### Alternative: Use cPanel's Git Integration
 
 If your hosting provider supports it, you could also:
+
 1. Connect your GitHub repository directly to cPanel
 2. Set up automatic deployments when you push to main
 3. Configure the build process in cPanel
@@ -205,11 +206,54 @@ letters-of-US-history/
 │   │   ├── App.js              # Main React app
 │   │   ├── AdminPanel.js       # Admin interface
 │   │   ├── presidents.js       # Presidents list
+│   │   ├── components/
+│   │   │   ├── presidents/     # President page components
+│   │   │   │   ├── PresidentPage.js    # Generic president page component
+│   │   │   │   ├── PresidentPage.css   # Styling for president pages
+│   │   │   │   └── StyleTemplate.jsx   # Style template component
+│   │   │   └── Footer.jsx      # Footer component
+│   │   ├── data/
+│   │   │   └── presidents/     # President data files
+│   │   │       ├── index.js    # Exports all president data
+│   │   │       ├── georgeWashington.jsx
+│   │   │       ├── johnAdams.jsx
+│   │   │       └── ...         # All other presidents
 │   │   └── index.css           # Styling
 │   │   
 │   └── public/
 └── README.md
 ```
+
+## Presidents Components
+
+The application uses React components for displaying individual president pages with the following structure:
+
+### Component Features
+
+- **Navigation**: Previous/Next President buttons, Timeline view, All Presidents grid, Back button
+- **Content Sections**:
+  - Letter to successor
+  - Biographical & Presidency Facts
+  - Major Dates & Milestones
+  - Personal Life
+  - Historical Legacy
+  - Post-Presidency & Death
+  - Historical Analysis
+  - Sources
+- **Responsive Design**: Mobile-friendly layout with elegant typography and smooth animations
+
+### URL Structure
+
+President pages are accessed via `/presidents/:name` routes:
+
+- `/presidents/George Washington`
+- `/presidents/John Adams`
+- `/presidents/Thomas Jefferson`
+- etc.
+
+### Fallback System
+
+If a specific president component doesn't exist, the application falls back to the generic `PresidentPage.js` component, ensuring all presidents are accessible.
 
 ## Contributing
 
