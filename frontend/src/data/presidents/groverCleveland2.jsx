@@ -2,9 +2,11 @@ import React from 'react';
 
 export const groverCleveland2 = {
   presidentNumber: 24,
-  president: 'Grover Cleveland',
+  president: 'Grover Cleveland (2nd Term)',
   subheader: 'The Second Term',
   years: '1893-1897',
+  predecessor: 'Benjamin Harrison',
+  successor: 'William McKinley',
   letter: {
     header: 'Letter to William McKinley',
     content: `Major McKinley,
@@ -136,9 +138,9 @@ Modern presidential rankings typically place Cleveland's second term significant
     '[LINK:https://www.britannica.com/event/Grover-Cleveland-presidency|Britannica. "Grover Cleveland presidency." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Grover-Cleveland-impeachment|Britannica. "Grover Cleveland impeachment." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Grover-Cleveland-presidency|Britannica. "Grover Cleveland presidency." Updated 2025.]',
-    'Nevins, Allan. Grover Cleveland: A Study in Courage. Dodd, Mead, 1932.',
-    'Welch, Richard E. The Presidencies of Grover Cleveland. University Press of Kansas, 1988.',
-    'Graff, Henry F. Grover Cleveland. Times Books, 2002.'
+    '[LINK:https://archive.org/details/grovercleveland00nevi|Nevins, Allan. Grover Cleveland: A Study in Courage. Dodd, Mead, 1932.]',
+    '[LINK:https://kansaspress.ku.edu/978-0-7006-0365-8.html|Welch, Richard E. The Presidencies of Grover Cleveland. University Press of Kansas, 1988.]',
+    '[LINK:https://archive.org/details/grovercleveland00graf|Graff, Henry F. Grover Cleveland. Times Books, 2002.]'
   ]
 };
 

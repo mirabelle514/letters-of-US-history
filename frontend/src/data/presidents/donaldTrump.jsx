@@ -5,6 +5,8 @@ export const donaldTrump = {
   president: 'Donald Trump',
   subheader: 'Make America Great Again',
   years: '2017-2021',
+  predecessor: 'Barack Obama',
+  successor: 'Joe Biden',
   letter: {
     header: 'Letter to Joe Biden',
     content: `Joe,
@@ -146,9 +148,9 @@ Trump's continued influence in Republican politics and claims about the 2020 ele
     '[LINK:https://www.history.com/topics/us-presidents/donald-trump|History.com. "Donald Trump: Facts, Presidency & Quotes." Updated February 2025.]',
     '[LINK:https://www.whitehousehistory.org/bios/donald-trump|White House Historical Association. "Donald Trump." Accessed 2025.]',
     '[LINK:https://en.wikipedia.org/wiki/Presidency_of_Donald_Trump|Wikipedia. "Presidency of Donald Trump." Updated 2025.]',
-    'Wolff, Michael. Fire and Fury: Inside the Trump White House. Henry Holt, 2018.',
-    'Bolton, John. The Room Where It Happened: A White House Memoir. Simon & Schuster, 2020.',
-    'Woodward, Bob. Fear: Trump in the White House. Simon & Schuster, 2018.'
+    '[LINK:https://us.macmillan.com/books/9781250158062/fireandfury|Wolff, Michael. Fire and Fury: Inside the Trump White House. Henry Holt, 2018.]',
+    '[LINK:https://www.simonandschuster.com/books/The-Room-Where-It-Happened/John-Bolton/9781982148034|Bolton, John. The Room Where It Happened: A White House Memoir. Simon & Schuster, 2020.]',
+    '[LINK:https://www.simonandschuster.com/books/Fear/Bob-Woodward/9781501175510|Woodward, Bob. Fear: Trump in the White House. Simon & Schuster, 2018.]'
   ]
 };
 

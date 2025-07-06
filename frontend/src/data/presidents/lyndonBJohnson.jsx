@@ -5,6 +5,8 @@ export const lyndonBJohnson = {
   president: 'Lyndon B. Johnson',
   subheader: 'The Great Society',
   years: '1963-1969',
+  predecessor: 'John F. Kennedy',
+  successor: 'Richard Nixon',
   letter: {
     header: 'Letter to Richard Nixon',
     content: `Dear Dick,
@@ -105,9 +107,9 @@ Johnson's appointment of Thurgood Marshall as the first African American Supreme
 
 Historical evaluation of Johnson has emphasized the contradiction between his domestic achievements and foreign policy failures, creating complex assessments of his overall presidency. Scholars consistently praise his civil rights leadership and Great Society programs while criticizing his Vietnam policies and their impact on American society. Modern presidential rankings typically place Johnson in the upper-middle tier, recognizing his transformative domestic policies while acknowledging that Vietnam severely damaged his historical reputation. The Johnson presidency demonstrates both the potential for presidential leadership in domestic reform and the dangers of presidential overreach in foreign policy.`,
   sources: [
-    'Caro, Robert A. The Years of Lyndon Johnson. 4 vols. Knopf, 1982-2012.',
-    'Dallek, Robert. Lyndon B. Johnson: Portrait of a President. Oxford University Press, 2004.',
-    'Goodwin, Doris Kearns. Lyndon Johnson and the American Dream. Harper & Row, 1976.',
+    '[LINK:https://archive.org/details/yearsoflyndonjohn00caro|Caro, Robert A. The Years of Lyndon Johnson. 4 vols. Knopf, 1982-2012.]',
+    '[LINK:https://global.oup.com/academic/product/lyndon-b-johnson-9780195159219|Dallek, Robert. Lyndon B. Johnson: Portrait of a President. Oxford University Press, 2004.]',
+    '[LINK:https://archive.org/details/lyndonjohnsoname00good|Goodwin, Doris Kearns. Lyndon Johnson and the American Dream. Harper & Row, 1976.]',
     '[LINK:https://millercenter.org/president/lbjohnson/impact-and-legacy|Miller Center, University of Virginia. "Lyndon B. Johnson: Impact and Legacy." Accessed 2025.]',
     '[LINK:https://www.history.com/topics/us-presidents/lyndon-b-johnson|History.com. "Lyndon B. Johnson: Facts, Presidency & Great Society." Updated February 2025.]',
     '[LINK:https://www.whitehousehistory.org/bios/lyndon-b-johnson|White House Historical Association. "Lyndon B. Johnson." Accessed 2025.]',

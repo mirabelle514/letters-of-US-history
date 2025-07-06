@@ -5,22 +5,32 @@ export const barackObama = {
   president: 'Barack Obama',
   subheader: 'Hope and Change',
   years: '2009-2017',
+  predecessor: 'George W. Bush',
+  successor: 'Donald Trump',
+  disclaimer: {
+    text: 'This document is the verified original.',
+    link: 'https://ballotpedia.org/Letters_left_by_U.S._presidents_to_their_successors'
+  },
   letter: {
     header: 'Letter to Donald Trump',
-    content: `Dear President-elect Trump,
-I transfer to you a presidency that has weathered the worst economic crisis since the Great Depression and begun to restore America's standing in the world after years of costly conflicts. Yet I leave knowing that the hope and change I promised have been only partially realized, and that our democracy faces challenges I could not have imagined when I first took this oath.
+    content: `Dear Mr. President -
 
-The Affordable Care Act represents the fulfillment of a century-long struggle to ensure that healthcare is a right, not a privilege. Though imperfect and politically costly, it has extended insurance coverage to millions while establishing the principle that government must ensure access to medical care. Whatever changes you make, remember the human lives that depend upon these protections.
+Congratulations on a remarkable run. Millions have placed their hopes in you, and all of us, regardless of party, should hope for expanded prosperity and security during your tenure.
 
-We have restored economic growth and created millions of jobs through careful stimulus spending and financial regulation that prevented another depression. Yet I recognize that many Americans feel left behind by economic changes that no president can fully control. Manufacturing jobs lost to automation and globalization require new approaches to education and economic development.
+This is a unique office, without a clear blueprint for success, so I don’t know that any advice from me will be particularly helpful. Still, let me offer a few reflections from the past 8 years.
 
-In foreign affairs, we have rebuilt alliances, negotiated arms control agreements, and addressed climate change through international cooperation. The Iran nuclear deal and Paris Climate Agreement represent diplomatic achievements that serve long-term American interests, though they require sustained commitment from future administrations.
+First, we’ve both been blessed, in different ways, with great good fortune. Not everyone is so lucky. It’s up to us to do everything we can (to) build more ladders of success for every child and family that’s willing to work hard.
 
-My greatest regret is the deepening polarization that has made governance increasingly difficult. Social media and partisan news sources have created alternate realities that make democratic discourse nearly impossible. The presidency alone cannot heal these divisions, but it must try to speak to our better angels.
+Second, American leadership in this world really is indispensable. It’s up to us, through action and example, to sustain the international order that’s expanded steadily since the end of the Cold War, and upon which our own wealth and safety depend.
 
-The peaceful transfer of power is democracy's greatest strength. Though we disagree on many issues, I pray that you will uphold the constitutional principles and democratic norms that have guided our nation through darker periods than any we face today.
+Third, we are just temporary occupants of this office. That makes us guardians of those democratic institutions and traditions — like rule of law, separation of powers, equal protection and civil liberties — that our forebears fought and bled for. Regardless of the push and pull of daily politics, it’s up to us to leave those instruments of our democracy at least as strong as we found them.
 
-Your predecessor in service to the American people, Barack Obama`
+And finally, take time, in the rush of events and responsibilities, for friends and family. They’ll get you through the inevitable rough patches.
+
+Michelle and I wish you and Melania the very best as you embark on this great adventure, and know that we stand ready to help in any ways which we can.
+
+Good luck and Godspeed,
+BO`
   },
   biographical: [
     'Born August 4, 1961, in Honolulu, Hawaii',
@@ -140,9 +150,9 @@ Modern presidential rankings typically place Obama in the upper tier, recognizin
     '[LINK:https://www.history.com/topics/us-presidents/barack-obama|History.com. "Barack Obama: Facts, Presidency & Quotes." Updated February 2025.]',
     '[LINK:https://www.whitehousehistory.org/bios/barack-obama|White House Historical Association. "Barack Obama." Accessed 2025.]',
     '[LINK:https://en.wikipedia.org/wiki/Presidency_of_Barack_Obama|Wikipedia. "Presidency of Barack Obama." Updated 2025.]',
-    'Remnick, David. The Bridge: The Life and Rise of Barack Obama. Knopf, 2010.',
-    'Pfeiffer, Dan. Yes We (Still) Can: Politics in the Age of Obama, Twitter, and Trump. Twelve, 2018.',
-    'Rhodes, Ben. The World as It Is: A Memoir of the Obama White House. Random House, 2018.'
+    '[LINK:https://www.penguinrandomhouse.com/books/30002/the-bridge-by-david-remnick/|Remnick, David. The Bridge: The Life and Rise of Barack Obama. Knopf, 2010.]',
+    '[LINK:https://www.hachettebookgroup.com/titles/dan-pfeiffer/yes-we-still-can/9781455588206/|Pfeiffer, Dan. Yes We (Still) Can: Politics in the Age of Obama, Twitter, and Trump. Twelve, 2018.]',
+    '[LINK:https://www.penguinrandomhouse.com/books/30003/the-world-as-it-is-by-ben-rhodes/|Rhodes, Ben. The World as It Is: A Memoir of the Obama White House. Random House, 2018.]'
   ]
 };
 

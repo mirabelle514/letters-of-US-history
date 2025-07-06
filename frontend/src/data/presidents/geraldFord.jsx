@@ -5,6 +5,8 @@ export const geraldFord = {
   president: 'Gerald Ford',
   subheader: 'The Accidental President',
   years: '1974-1977',
+  predecessor: 'Richard Nixon',
+  successor: 'Jimmy Carter',
   letter: {
     header: 'Letter to Jimmy Carter',
     content: `Dear Jimmy,
@@ -105,9 +107,9 @@ Ford's unique status as the only unelected president (appointed as Vice Presiden
 
 Historical evaluation of Ford has been generally sympathetic, recognizing his role in restoring stability and integrity to the presidency while acknowledging his limited accomplishments. Scholars praise his personal character and steady leadership during difficult circumstances while noting that his presidency was largely reactive rather than innovative. Modern presidential rankings typically place Ford in the middle tier, recognizing his transitional role and personal integrity while acknowledging the limitations of his brief tenure. The Ford presidency demonstrates how personal character and institutional stability can be valuable even when major policy achievements are limited.`,
   sources: [
-    'Cannon, James. Time and Chance: Gerald Ford\'s Appointment with History. HarperCollins, 1994.',
-    'Greene, John Robert. The Presidency of Gerald R. Ford. University Press of Kansas, 1995.',
-    'Hartmann, Robert T. Palace Politics: An Inside Account of the Ford Years. McGraw-Hill, 1980.',
+    '[LINK:https://archive.org/details/timechancegerald0000cann|Cannon, James. Time and Chance: Gerald Ford\'s Appointment with History. HarperCollins, 1994.]',
+    '[LINK:https://kansaspress.ku.edu/978-0-7006-0639-4.html|Greene, John Robert. The Presidency of Gerald R. Ford. University Press of Kansas, 1995.]',
+    '[LINK:https://archive.org/details/palacepoliticsins00hart|Hartmann, Robert T. Palace Politics: An Inside Account of the Ford Years. McGraw-Hill, 1980.]',
     '[LINK:https://millercenter.org/president/ford/impact-and-legacy|Miller Center, University of Virginia. "Gerald Ford: Impact and Legacy." Accessed 2025.]',
     '[LINK:https://www.history.com/topics/us-presidents/gerald-ford|History.com. "Gerald Ford: Facts, Presidency & Pardon." Updated February 2025.]',
     '[LINK:https://www.whitehousehistory.org/bios/gerald-r-ford|White House Historical Association. "Gerald Ford." Accessed 2025.]',

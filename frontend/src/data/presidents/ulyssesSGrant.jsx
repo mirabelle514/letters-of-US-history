@@ -5,6 +5,8 @@ export const ulyssesSGrant = {
   president: 'Ulysses S. Grant',
   subheader: 'Unconditional Surrender',
   years: '1869-1877',
+  predecessor: 'Andrew Johnson',
+  successor: 'Rutherford B. Hayes',
   letter: {
     header: 'Letter to Chester A. Arthur',
     content: `My Dear Hayes,
@@ -128,8 +130,8 @@ Contemporary presidential rankings typically place Grant in the middle tier, rec
     '[LINK:https://www.britannica.com/event/Ulysses-S-Grant-presidency|Britannica. "Ulysses S. Grant presidency." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Ulysses-S-Grant-impeachment|Britannica. "Ulysses S. Grant impeachment." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Ulysses-S-Grant-presidency|Britannica. "Ulysses S. Grant presidency." Updated 2025.]',
-    'Smith, Jean Edward. Grant. Simon & Schuster, 2001.',
-    'McFeely, William S. Grant: A Biography. W.W. Norton, 1981.',
+    '[LINK:https://www.simonandschuster.com/books/Grant/Jean-Edward-Smith/9780684849270|Smith, Jean Edward. Grant. Simon & Schuster, 2001.]',
+    '[LINK:https://archive.org/details/grantbiography00mcfe|McFeely, William S. Grant: A Biography. W.W. Norton, 1981.]',
     'Bunting, Josiah III. Ulysses S. Grant. Times Books, 2004.'
   ]
 };

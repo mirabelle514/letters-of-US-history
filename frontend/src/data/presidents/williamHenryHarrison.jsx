@@ -5,6 +5,8 @@ export const williamHenryHarrison = {
   president: 'William Henry Harrison',
   subheader: 'Tippecanoe',
   years: '1841',
+  predecessor: 'Martin Van Buren',
+  successor: 'John Tyler',
   letter: {
     header: 'Letter to John Tyler',
     content: `My Dear Tyler,

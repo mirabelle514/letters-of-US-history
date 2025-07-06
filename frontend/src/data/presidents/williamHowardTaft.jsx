@@ -5,6 +5,8 @@ export const williamHowardTaft = {
   president: 'William Howard Taft',
   subheader: 'The Judicial President',
   years: '1909-1913',
+  predecessor: 'Theodore Roosevelt',
+  successor: 'Woodrow Wilson',
   letter: {
     header: 'Letter to Woodrow Wilson',
     content: `My Dear Professor Wilson,
@@ -138,9 +140,9 @@ Presidential rankings typically place Taft in the middle tier, acknowledging his
     '[LINK:https://www.history.com/topics/us-presidents/william-howard-taft|History.com. "William Howard Taft: Facts, Presidency & Quotes." Updated February 2025.]',
     '[LINK:https://www.whitehousehistory.org/bios/william-howard-taft|White House Historical Association. "William Howard Taft." Accessed 2025.]',
     '[LINK:https://en.wikipedia.org/wiki/Presidency_of_William_Howard_Taft|Wikipedia. "Presidency of William Howard Taft." Updated 2025.]',
-    'Anderson, Donald F. William Howard Taft: A Conservative\'s Conception of the Presidency. Cornell University Press, 1973.',
-    'Burton, David H. The Learned Presidency: Theodore Roosevelt, William Howard Taft, Woodrow Wilson. Fairleigh Dickinson University Press, 1988.',
-    'Coletta, Paolo E. The Presidency of William Howard Taft. University Press of Kansas, 1973.'
+    '[LINK:https://archive.org/details/williamhowardtaf0000ande|Anderson, Donald F. William Howard Taft: A Conservative\'s Conception of the Presidency. Cornell University Press, 1973.]',
+    '[LINK:https://archive.org/details/learnedpresidenc0000burt|Burton, David H. The Learned Presidency: Theodore Roosevelt, William Howard Taft, Woodrow Wilson. Fairleigh Dickinson University Press, 1988.]',
+    '[LINK:https://kansaspress.ku.edu/978-0-7006-0206-8.html|Coletta, Paolo E. The Presidency of William Howard Taft. University Press of Kansas, 1973.]'
   ]
 };
 

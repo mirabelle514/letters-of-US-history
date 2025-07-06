@@ -5,6 +5,8 @@ export const jamesAGarfield = {
   president: 'James A. Garfield',
   subheader: 'The Preacher President',
   years: '1881',
+  predecessor: 'Rutherford B. Hayes',
+  successor: 'Chester A. Arthur',
   letter: {
     header: 'Letter to Chester A. Arthur',
     content: `My Dear Arthur,

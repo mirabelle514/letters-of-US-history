@@ -5,6 +5,8 @@ export const thomasJefferson = {
   president: 'Thomas Jefferson',
   subheader: 'The Sage of Monticello',
   years: '1801-1809',
+  predecessor: 'John Adams',
+  successor: 'James Madison',
   letter: {
     header: 'Letter to James Madison',
     content: `My dear Madison,

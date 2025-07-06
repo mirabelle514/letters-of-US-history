@@ -5,6 +5,8 @@ export const franklinPierce = {
   president: 'Franklin Pierce',
   subheader: 'Handsome Frank',
   years: '1853-1857',
+  predecessor: 'Millard Fillmore',
+  successor: 'James Buchanan',
   letter: {
     header: 'Letter to James Buchanan',
     content: `My Dear Buchanan,

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../presidents/PresidentPage.css';
 import { allPresidents } from '../../data/presidents';
+import { Link } from 'react-router-dom';
 
 const PresidentPage = ({ president, onBack }) => {
   const chapter = allPresidents.find(ch => ch.president === president.name);
@@ -37,6 +38,33 @@ const PresidentPage = ({ president, onBack }) => {
         </div>
       </div>
 
+      {/* Simple Navigation Links */}
+      <div className="simple-nav-links">
+        <div className="nav-links-container">
+          {chapter.predecessor ? (
+            <Link 
+              to={`/presidents/${encodeURIComponent(chapter.predecessor)}`}
+              className="nav-link prev-link"
+            >
+              ← {chapter.predecessor}
+            </Link>
+          ) : (
+            <span className="nav-link disabled">← No Predecessor</span>
+          )}
+          
+          {chapter.successor ? (
+            <Link 
+              to={`/presidents/${encodeURIComponent(chapter.successor)}`}
+              className="nav-link next-link"
+            >
+              {chapter.successor} →
+            </Link>
+          ) : (
+            <span className="nav-link disabled">No Successor →</span>
+          )}
+        </div>
+      </div>
+
       <div className="content-container">
         {/* Letter Section */}
         <section className="letter-section">
@@ -51,6 +79,22 @@ const PresidentPage = ({ president, onBack }) => {
                 <p>Letter content not available.</p>
               )}
             </div>
+            {chapter.disclaimer && (
+              <div className="letter-disclaimer">
+                {chapter.disclaimer.link ? (
+                  <a 
+                    href={chapter.disclaimer.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="disclaimer-link"
+                  >
+                    {chapter.disclaimer.text}
+                  </a>
+                ) : (
+                  <span className="disclaimer-text">{chapter.disclaimer.text}</span>
+                )}
+              </div>
+            )}
           </div>
         </section>
 

@@ -5,6 +5,8 @@ export const groverCleveland = {
   president: 'Grover Cleveland',
   subheader: 'The Veto President',
   years: '1885-1889',
+  predecessor: 'Chester A. Arthur',
+  successor: 'Benjamin Harrison',
   letter: {
     header: 'Letter to Benjamin Harrison',
     content: `Mr. Harrison,
@@ -144,9 +146,9 @@ Modern presidential rankings typically place Cleveland in the upper-middle tier,
     '[LINK:https://www.britannica.com/event/Grover-Cleveland-presidency|Britannica. "Grover Cleveland presidency." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Grover-Cleveland-impeachment|Britannica. "Grover Cleveland impeachment." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Grover-Cleveland-presidency|Britannica. "Grover Cleveland presidency." Updated 2025.]',
-    'Nevins, Allan. Grover Cleveland: A Study in Courage. Dodd, Mead, 1932.',
-    'Welch, Richard E. The Presidencies of Grover Cleveland. University Press of Kansas, 1988.',
-    'Jeffers, H. Paul. An Honest President: The Life and Presidencies of Grover Cleveland. William Morrow, 2000.'
+    '[LINK:https://archive.org/details/grovercleveland00nevi|Nevins, Allan. Grover Cleveland: A Study in Courage. Dodd, Mead, 1932.]',
+    '[LINK:https://kansaspress.ku.edu/978-0-7006-0365-8.html|Welch, Richard E. The Presidencies of Grover Cleveland. University Press of Kansas, 1988.]',
+    '[LINK:https://archive.org/details/honestpresidentli00jeff|Jeffers, H. Paul. An Honest President: The Life and Presidencies of Grover Cleveland. William Morrow, 2000.]'
   ]
 };
 

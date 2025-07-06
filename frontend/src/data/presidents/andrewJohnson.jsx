@@ -5,6 +5,8 @@ export const andrewJohnson = {
   president: 'Andrew Johnson',
   subheader: 'The Tailor President',
   years: '1865-1869',
+  predecessor: 'Abraham Lincoln',
+  successor: 'Ulysses S. Grant',
   letter: {
     header: 'Letter to Ulysses S. Grant',
     content: `General Grant,
@@ -138,7 +140,7 @@ The Johnson presidency demonstrated the importance of presidential leadership du
     '[LINK:https://www.britannica.com/event/Andrew-Johnson-impeachment|Britannica. "Andrew Johnson impeachment." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Andrew-Johnson-presidency|Britannica. "Andrew Johnson presidency." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Andrew-Johnson-presidency|Britannica. "Andrew Johnson presidency." Updated 2025.]',
-    'Gordon-Reed, Annette. Andrew Johnson. Times Books, 2011.'
+    '[LINK:https://archive.org/details/andrewjohnson0000gord|Gordon-Reed, Annette. Andrew Johnson. Times Books, 2011.]'
   ]
 };
 

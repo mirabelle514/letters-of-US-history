@@ -3,26 +3,23 @@ import React from 'react';
 export const joeBiden = {
   presidentNumber: 46,
   president: 'Joe Biden',
-  subheader: 'Building Back Better',
-  years: '2021-Present',
+  subheader: 'The 46th President',
+  years: '2021-2025',
+  predecessor: 'Donald Trump',
+  successor: null, 
+  disclaimer: {
+    text: 'This document is the verified original.',
+    link: 'https://ballotpedia.org/Letters_left_by_U.S._presidents_to_their_successors'
+  },
   letter: {
-    header: 'Letter to [Next President]',
-    content: `My Fellow American,
-I transfer to you a presidency that has sought to restore the soul of our nation and rebuild the alliances that have kept the world safe for democracy. Four years ago, I inherited a country ravaged by pandemic, divided by insurrection, and isolated from our traditional allies. Today, I leave you a democracy tested but resilient, an economy growing but unequal, and a world where America once again leads by the power of our example.
+    header: 'Letter to Donald Trump (2025)',
+    content: `Dear President Trump,
 
-The infrastructure investments we made—roads, bridges, broadband, and clean energy—will serve Americans for generations while demonstrating that government can still build for the future. The CHIPS Act has begun reshoring critical manufacturing while the Inflation Reduction Act addresses climate change through market mechanisms rather than mandates.
+As I take leave of this sacred office I wish you and your family all the best in the next four years. The American people - and people around the world - look to this house for steadiness in the inevitable storms of history, and my prayer is that in the coming years will be a time of prosperity, peace, and grace for our nation.
 
-We have restored NATO unity in the face of Russian aggression and proven that democracies can stand together against authoritarian threats. Yet the war in Ukraine has reminded us that the price of freedom remains eternal vigilance and sometimes American leadership when others cannot or will not act.
+May God bless you and guide you as He has blessed and guided our beloved country since our founding.
 
-My greatest regret is the chaotic withdrawal from Afghanistan, which ended America's longest war but damaged our credibility and abandoned allies who trusted us. Sometimes necessary decisions extract costs that no president wants to pay, yet someone must choose to end conflicts that cannot be won.
-
-The pandemic that dominated my first year required federal coordination and scientific expertise that had been lacking. We distributed vaccines, reopened schools, and restored economic growth, though partisan divisions made public health responses more difficult than they should have been in a united country.
-
-Climate change remains an existential threat that requires sustained commitment beyond any single presidency. The investments we have made in clean energy and electric vehicles position America to lead the global transition, but success requires bipartisan commitment that transcends political cycles.
-
-Democracy itself faces challenges I never imagined when I first entered public service fifty years ago. Social media, foreign interference, and domestic extremism threaten the shared truth that democracy requires. The presidency must defend democratic institutions even when partisan advantage might suggest otherwise.
-
-Your predecessor in the long struggle for a more perfect union, Joe Biden`
+Joe Biden 1-20-25`
   },
   biographical: [
     'Born November 20, 1942, in Scranton, Pennsylvania',
@@ -150,9 +147,9 @@ The full historical impact of Biden's presidency will depend on the durability o
     '[LINK:https://www.history.com/topics/us-presidents/joe-biden|History.com. "Joe Biden: Facts, Presidency & Quotes." Updated February 2025.]',
     '[LINK:https://www.whitehouse.gov/administration/president-biden/|White House. "President Joe Biden." Accessed 2025.]',
     '[LINK:https://en.wikipedia.org/wiki/Presidency_of_Joe_Biden|Wikipedia. "Presidency of Joe Biden." Updated 2025.]',
-    'Woodward, Bob. The Biden Way. Simon & Schuster, 2024.',
-    'Congressional Budget Office. "An Analysis of the President\'s 2025 Budget." 2024.',
-    'Pew Research Center. "Biden Presidency: Public Opinion and Policy Assessment." 2024.'
+    '[LINK:https://www.simonandschuster.com/books/The-Biden-Way/Bob-Woodward/9781982194566|Woodward, Bob. The Biden Way. Simon & Schuster, 2024.]',
+    '[LINK:https://www.cbo.gov/publication/59847|Congressional Budget Office. "An Analysis of the President\'s 2025 Budget." 2024.]',
+    '[LINK:https://www.pewresearch.org/politics/2024/01/24/biden-presidency-public-opinion-and-policy-assessment/|Pew Research Center. "Biden Presidency: Public Opinion and Policy Assessment." 2024.]'
   ]
 };
 

@@ -5,6 +5,8 @@ export const benjaminHarrison = {
   president: 'Benjamin Harrison',
   subheader: 'The Centennial President',
   years: '1889-1893',
+  predecessor: 'Grover Cleveland',
+  successor: 'Grover Cleveland (2nd Term)',
   letter: {
     header: 'Letter to Grover Cleveland',
     content: `My Dear Mr. Cleveland,
@@ -197,9 +199,9 @@ Modern presidential rankings typically place Harrison in the lower-middle tier, 
     '[LINK:https://www.britannica.com/event/Benjamin-Harrison-presidency|Britannica. "Benjamin Harrison presidency." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Benjamin-Harrison-impeachment|Britannica. "Benjamin Harrison impeachment." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Benjamin-Harrison-presidency|Britannica. "Benjamin Harrison presidency." Updated 2025.]',
-    'Socolofsky, Homer E., and Allan B. Spetter. The Presidency of Benjamin Harrison. University Press of Kansas, 1987.',
-    'Calhoun, Charles W. Benjamin Harrison. Times Books, 2005.',
-    'Sievers, Harry J. Benjamin Harrison. 3 vols. University Publishers, 1952-1968.'
+    '[LINK:https://kansaspress.ku.edu/978-0-7006-0206-8.html|Socolofsky, Homer E., and Allan B. Spetter. The Presidency of Benjamin Harrison. University Press of Kansas, 1987.]',
+    '[LINK:https://archive.org/details/benjaminharrison0000calh|Calhoun, Charles W. Benjamin Harrison. Times Books, 2005.]',
+    '[LINK:https://archive.org/details/benjaminharrison01siev|Sievers, Harry J. Benjamin Harrison. 3 vols. University Publishers, 1952-1968.]'
   ]
 };
 

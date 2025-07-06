@@ -5,21 +5,22 @@ export const ronaldReagan = {
   president: 'Ronald Reagan',
   subheader: 'The Great Communicator',
   years: '1981-1989',
+  predecessor: 'Jimmy Carter',
+  successor: 'George H. W. Bush',
+  disclaimer: {
+    text: 'This document is the verified original.',
+    link: 'https://ballotpedia.org/Letters_left_by_U.S._presidents_to_their_successors'
+  },
   letter: {
     header: 'Letter to George H.W. Bush',
-    content: `Dear George,
-I pass to you a presidency that has restored American confidence and renewed our nation's sense of purpose after the malaise and confusion of recent years. We have proven that conservative principles—lower taxes, reduced regulation, peace through strength—can revive economic growth and restore American leadership in the world.
-
-The Berlin Wall stands cracked and crumbling, though it has not yet fallen. Our military buildup and firm resolve have brought the Soviet Union to the negotiating table as never before. Gorbachev represents a new kind of Soviet leader, and I believe we can work with him to reduce nuclear arsenals and end the Cold War that has shadowed the world for forty years.
-
-The economic expansion we have fostered through supply-side policies has created millions of jobs and restored prosperity to America. Yet I confess concern about the federal deficits our policies have created. We have proven that tax cuts can stimulate growth, but we have not yet demonstrated the political will to reduce spending commensurately.
-
-Iran-Contra has taught me that even well-intentioned efforts to support freedom fighters can become entangled in legal and constitutional complications. The lesson is not to abandon support for those who fight tyranny, but to ensure that such support operates within legal bounds and with proper oversight.
-
-I have tried to restore dignity and optimism to the presidency after years of scandal and pessimism. The office must inspire as well as govern, and the president must embody the nation's highest aspirations. Morning has returned to America, and I pray that you will keep the sun shining.
-
-Your predecessor and loyal friend,
-Ronald Reagan`
+    content: `Dear George, 
+    You'll have moments when you want to use this particular stationary. Well, go to it. George, I treasure the memories we share and wish you all the very best. 
+    
+    You'll be in my prayers. 
+    
+    God bless you & Barbara. 
+    I'll miss our Thursday lunches. 
+    Ron`
   },
   biographical: [
     'Born February 6, 1911, in Tampico, Illinois',
@@ -117,9 +118,9 @@ While the Cold War formally ended under Bush's presidency, Reagan's policies and
 
 Historical evaluation of Reagan has been generally positive among both scholars and the public, with recognition of his transformative impact on American politics and foreign policy. Conservative scholars praise his restoration of limited government principles and American global leadership, while liberal critics acknowledge his political effectiveness despite disagreeing with his policies. Modern presidential rankings typically place Reagan in the near-great category, recognizing his significant domestic and foreign policy achievements while noting problems like deficits and Iran-Contra. The Reagan presidency established conservative dominance in Republican politics and influenced Democratic positions on economic and foreign policy issues.`,
   sources: [
-    'Cannon, Lou. President Reagan: The Role of a Lifetime. PublicAffairs, 2000.',
-    'Pemberton, William E. Exit with Honor: The Life and Presidency of Ronald Reagan. M.E. Sharpe, 1997.',
-    'Wilentz, Sean. The Age of Reagan: A History, 1974-2008. Harper, 2008.',
+    '[LINK:https://www.reaganfoundation.org/store/products/president-reagan-the-role-of-a-lifetime-by-lou-cannon-available-with-autographed-bookplate?srsltid=AfmBOopBtDM0LJAnWAbTJjtZyREJtoEIogpA4c5cjWzKyIub4YXH_gg3|Cannon, Lou. President Reagan: The Role of a Lifetime. PublicAffairs, 2000.]',
+    '[LINK:https://archive.org/details/exitwithhonorlif00pemb|Pemberton, William E. Exit with Honor: The Life and Presidency of Ronald Reagan. M.E. Sharpe, 1997.]',
+    '[LINK:https://www.amazon.com/Age-Reagan-History-1974-2008/dp/0060831309|Wilentz, Sean. The Age of Reagan: A History, 1974-2008. Harper, 2008.]',
     '[LINK:https://millercenter.org/president/reagan/impact-and-legacy|Miller Center, University of Virginia. "Ronald Reagan: Impact and Legacy." Accessed 2025.]',
     '[LINK:https://www.history.com/topics/us-presidents/ronald-reagan|History.com. "Ronald Reagan: Facts, Presidency & Quotes." Updated February 2025.]',
     '[LINK:https://www.whitehousehistory.org/bios/ronald-reagan|White House Historical Association. "Ronald Reagan." Accessed 2025.]',

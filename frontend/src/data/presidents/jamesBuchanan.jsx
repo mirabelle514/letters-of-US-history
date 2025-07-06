@@ -5,6 +5,12 @@ export const jamesBuchanan = {
   president: 'James Buchanan',
   subheader: 'The Bachelor President',
   years: '1857-1861',
+  predecessor: 'Franklin Pierce',
+  successor: 'Abraham Lincoln',
+  predecessor: 'Franklin Pierce',
+  successor: 'Abraham Lincoln',
+  predecessor: 'Franklin Pierce',
+  successor: 'Abraham Lincoln',
   letter: {
     header: 'Letter to Abraham Lincoln',
     content: `Mr. Lincoln,
@@ -112,9 +118,9 @@ However, some historians note that Buchanan faced an impossible situation. The s
     '[LINK:https://www.britannica.com/event/James-Buchanan-presidency|Britannica. "James Buchanan presidency." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/James-Buchanan-impeachment|Britannica. "James Buchanan impeachment." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/James-Buchanan-presidency|Britannica. "James Buchanan presidency." Updated 2025.]',
-    'Klein, Philip S. President James Buchanan: A Biography. Pennsylvania State University Press, 1962.',
-    'Baker, Jean H. James Buchanan. Times Books, 2004.',
-    'Birkner, Michael J., ed. James Buchanan and the Political Crisis of the 1850s. Susquehanna University Press, 1996.'
+    '[LINK:https://archive.org/details/presidentjamesbu0000klei|Klein, Philip S. President James Buchanan: A Biography. Pennsylvania State University Press, 1962.]',
+    '[LINK:https://archive.org/details/jamesbuchanan0000bake|Baker, Jean H. James Buchanan. Times Books, 2004.]',
+    '[LINK:https://archive.org/details/jamesbuchananpoli0000birk|Birkner, Michael J., ed. James Buchanan and the Political Crisis of the 1850s. Susquehanna University Press, 1996.]'
   ]
 };
 

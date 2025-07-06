@@ -5,6 +5,8 @@ export const georgeWashington = {
   president: 'George Washington',
   subheader: 'The Founding Father',
   years: '1789-1797',
+  predecessor: null,
+  successor: 'John Adams',
   letter: {
     header: 'Letter to John Adams',
     content: `My Dear Adams,

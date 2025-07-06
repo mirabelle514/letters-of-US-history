@@ -5,6 +5,8 @@ export const johnQuincyAdams = {
   president: 'John Quincy Adams',
   subheader: 'The Scholar President',
   years: '1825-1829',
+  predecessor: 'James Monroe',
+  successor: 'Andrew Jackson',
   letter: {
     header: 'Letter to Andrew Jackson',
     content: `General Jackson,

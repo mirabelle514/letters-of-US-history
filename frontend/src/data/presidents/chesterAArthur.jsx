@@ -5,6 +5,8 @@ export const chesterAArthur = {
   president: 'Chester A. Arthur',
   subheader: 'The Gentleman Boss',
   years: '1881-1885',
+  predecessor: 'James A. Garfield',
+  successor: 'Grover Cleveland',
   letter: {
     header: 'Letter to Grover Cleveland',
     content: `Mr. Cleveland,
@@ -188,9 +190,9 @@ Modern presidential rankings typically place Arthur in the middle tier, recogniz
     '[LINK:https://www.britannica.com/event/Chester-A-Arthur-presidency|Britannica. "Chester A. Arthur presidency." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Chester-A-Arthur-impeachment|Britannica. "Chester A. Arthur impeachment." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Chester-A-Arthur-presidency|Britannica. "Chester A. Arthur presidency." Updated 2025.]',
-    'Reeves, Thomas C. Gentleman Boss: The Life of Chester Alan Arthur. Knopf, 1975.',
-    'Karabell, Zachary. Chester Alan Arthur. Times Books, 2004.',
-    'Doenecke, Justus D. The Presidencies of James A. Garfield and Chester A. Arthur. University Press of Kansas, 1981.'
+    '[LINK:https://archive.org/details/gentlemanbosslif00reev|Reeves, Thomas C. Gentleman Boss: The Life of Chester Alan Arthur. Knopf, 1975.]',
+    '[LINK:https://archive.org/details/chesteralanarthu0000kara|Karabell, Zachary. Chester Alan Arthur. Times Books, 2004.]',
+    '[LINK:https://kansaspress.ku.edu/978-0-7006-0206-8.html|Doenecke, Justus D. The Presidencies of James A. Garfield and Chester A. Arthur. University Press of Kansas, 1981.]'
   ]
 };
 

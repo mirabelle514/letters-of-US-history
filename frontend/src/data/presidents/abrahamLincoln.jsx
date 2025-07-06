@@ -5,6 +5,8 @@ export const abrahamLincoln = {
   president: 'Abraham Lincoln',
   subheader: 'The Great Emancipator',
   years: '1861-1865',
+  predecessor: 'James Buchanan',
+  successor: 'Andrew Johnson',
   letter: {
     header: 'Letter to Andrew Johnson',
     content: `My Dear Johnson,
@@ -133,14 +135,12 @@ Critics note Lincoln's expansion of executive power and suspension of civil libe
     '[LINK:https://millercenter.org/president/lincoln/key-events|Miller Center, University of Virginia. "Abraham Lincoln: Key Events." Updated August 2023.]',
     '[LINK:https://www.britannica.com/event/Emancipation-Proclamation|Britannica. "Emancipation Proclamation." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Gettysburg-Address|Britannica. "Gettysburg Address." Updated 2025.]',
-    '[LINK:https://www.britannica.com/event/Lincoln-assassination|Britannica. "Lincoln assassination." Updated 2025.]', 
-    '[LINK:https://www.britannica.com/biography/Abraham-Lincoln|Britannica. "Abraham Lincoln." Updated 2025.]',
-    '[LINK:https://www.history.com/topics/us-presidents/abraham-lincoln|History.com. "Abraham Lincoln." Updated 2025.]',
-    '[LINK:https://millercenter.org/president/lincoln/domestic-affairs|Miller Center, University of Virginia. "Abraham Lincoln: Domestic Affairs." Updated August 2023.]',
-    '[LINK:https://millercenter.org/president/lincoln/key-events|Miller Center, University of Virginia. "Abraham Lincoln: Key Events." Updated August 2023.]',
-    '[LINK:https://www.britannica.com/event/Emancipation-Proclamation|Britannica. "Emancipation Proclamation." Updated 2025.]',
-    '[LINK:https://www.britannica.com/event/Gettysburg-Address|Britannica. "Gettysburg Address." Updated 2025.]',
-    '[LINK:https://www.britannica.com/event/Lincoln-assassination|Britannica. "Lincoln assassination." Updated 2025.]', 
+    '[LINK:https://www.britannica.com/event/Lincoln-assassination|Britannica. "Lincoln assassination." Updated 2025.]',
+    '[LINK:https://www.whitehousehistory.org/bios/abraham-lincoln|White House Historical Association. "Abraham Lincoln." Accessed 2025.]',
+    '[LINK:https://en.wikipedia.org/wiki/Presidency_of_Abraham_Lincoln|Wikipedia. "Presidency of Abraham Lincoln." Updated 2025.]',
+    '[LINK:https://www.loc.gov/collections/abraham-lincoln-papers/about-this-collection/|Library of Congress. "Abraham Lincoln Papers." Accessed 2025.]',
+    '[LINK:https://www.nps.gov/abli/index.htm|National Park Service. "Abraham Lincoln Birthplace." Accessed 2025.]',
+    '[LINK:https://www.lincolncottage.org/|President Lincoln\'s Cottage. "Lincoln\'s Summer White House." Accessed 2025.]'
   ]
 };
 

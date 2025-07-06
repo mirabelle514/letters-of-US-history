@@ -5,6 +5,8 @@ export const harrySTruman = {
   president: 'Harry S. Truman',
   subheader: 'The Buck Stops Here',
   years: '1945-1953',
+  predecessor: 'Franklin D. Roosevelt',
+  successor: 'Dwight D. Eisenhower',
   letter: {
     header: 'Letter to Dwight D. Eisenhower',
     content: `Dear General Eisenhower,
@@ -107,8 +109,8 @@ Truman's direct, plain-spoken style contrasted sharply with Roosevelt's patricia
 
 Historical evaluation of Truman has improved dramatically over time, with early criticism giving way to recognition of his successful management of Cold War origins and civil rights progress. Modern presidential rankings typically place Truman in the near-great category, praising his foreign policy leadership and civil rights courage while acknowledging the limitations imposed by congressional opposition. The Truman presidency demonstrated how decisive leadership during critical transitions could shape American policy for decades, establishing precedents that influenced all subsequent Cold War presidents.`,
   sources: [
-    'McCullough, David. Truman. Simon & Schuster, 1992.',
-    'Hamby, Alonzo L. Man of the People: A Life of Harry S. Truman. Oxford University Press, 1995.',
+    '[LINK:https://archive.org/details/truman0000mccu|McCullough, David. Truman. Simon & Schuster, 1992.]',
+    '[LINK:https://global.oup.com/academic/product/man-of-the-people-9780195045468|Hamby, Alonzo L. Man of the People: A Life of Harry S. Truman. Oxford University Press, 1995.]',
     'Donovan, Robert J. Conflict and Crisis: The Presidency of Harry S. Truman, 1945-1948. W.W. Norton, 1977.',
     '[LINK:https://millercenter.org/president/truman/impact-and-legacy|Miller Center, University of Virginia. "Harry S. Truman: Impact and Legacy." Accessed 2025.]',
     '[LINK:https://www.history.com/topics/us-presidents/harry-s-truman|History.com. "Harry S. Truman: Facts, Presidency & Atomic Bomb." Updated February 2025.]',

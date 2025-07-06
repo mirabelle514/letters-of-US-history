@@ -5,6 +5,8 @@ export const martinVanBuren = {
   president: 'Martin Van Buren',
   subheader: 'The Little Magician',
   years: '1837-1841',
+  predecessor: 'Andrew Jackson',
+  successor: 'William Henry Harrison',
   letter: {
     header: 'Letter to William Henry Harrison',
     content: `My Dear General Harrison,

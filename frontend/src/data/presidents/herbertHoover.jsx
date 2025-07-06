@@ -5,6 +5,8 @@ export const herbertHoover = {
   president: 'Herbert Hoover',
   subheader: 'The Great Engineer',
   years: '1929-1933',
+  predecessor: 'Calvin Coolidge',
+  successor: 'Franklin D. Roosevelt',
   letter: {
     header: 'Letter to Franklin D. Roosevelt',
     content: `My Dear Franklin,
@@ -139,9 +141,9 @@ Modern presidential rankings typically place Hoover in the bottom tier, not nece
     '[LINK:https://www.britannica.com/event/Herbert-Hoover-presidency|Britannica. "Herbert Hoover presidency." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Herbert-Hoover-impeachment|Britannica. "Herbert Hoover impeachment." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Herbert-Hoover-presidency|Britannica. "Herbert Hoover presidency." Updated 2025.]',
-    'Burner, David. Herbert Hoover: A Public Life. Knopf, 1979.',
-    'Wilson, Joan Hoff. Herbert Hoover: Forgotten Progressive. Little, Brown, 1975.',
-    'Schwarz, Jordan A. The Interregnum of Despair: Hoover, Congress, and the Depression. University of Illinois Press, 1970.'
+    '[LINK:https://archive.org/details/herberthooverpub00burn|Burner, David. Herbert Hoover: A Public Life. Knopf, 1979.]',
+    '[LINK:https://archive.org/details/herberthooverfor00wils|Wilson, Joan Hoff. Herbert Hoover: Forgotten Progressive. Little, Brown, 1975.]',
+    '[LINK:https://archive.org/details/interregnumofdes00schw|Schwarz, Jordan A. The Interregnum of Despair: Hoover, Congress, and the Depression. University of Illinois Press, 1970.]'
   ]
 };
 

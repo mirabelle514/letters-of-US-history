@@ -5,6 +5,8 @@ export const jimmyCarter = {
   president: 'Jimmy Carter',
   subheader: 'The Peanut Farmer',
   years: '1977-1981',
+  predecessor: 'Gerald Ford',
+  successor: 'Ronald Reagan',
   letter: {
     header: 'Letter to Ronald Reagan',
     content: `Dear Governor Reagan,
@@ -115,9 +117,9 @@ Carter's post-presidential career, emphasizing human rights, democracy promotion
 
 Historical evaluation of Carter has become more positive over time, with scholars recognizing his prescient concerns about energy, environment, and human rights. Early assessments emphasized his political failures and communication problems, while recent scholarship has highlighted his policy innovations and moral leadership. Modern presidential rankings typically place Carter in the lower-middle tier, recognizing his integrity and long-term vision while acknowledging his political ineffectiveness. The Carter presidency demonstrates both the importance of moral leadership and the limitations of good intentions without political skill.`,
   sources: [
-    'Bourne, Peter G. Jimmy Carter: A Comprehensive Biography from Plains to Postpresidency. Scribner, 1997.',
-    'Kaufman, Burton I. The Presidency of James Earl Carter Jr. University Press of Kansas, 1993.',
-    'Glad, Betty. An Outsider in the White House: Jimmy Carter, His Advisors, and the Making of American Foreign Policy. Cornell University Press, 2009.',
+    '[LINK:https://archive.org/details/jimmycartercompr00bour|Bourne, Peter G. Jimmy Carter: A Comprehensive Biography from Plains to Postpresidency. Scribner, 1997.]',
+    '[LINK:https://kansaspress.ku.edu/978-0-7006-0572-4.html|Kaufman, Burton I. The Presidency of James Earl Carter Jr. University Press of Kansas, 1993.]',
+    '[LINK:https://archive.org/details/outsiderinwhiteh00glad|Glad, Betty. An Outsider in the White House: Jimmy Carter, His Advisors, and the Making of American Foreign Policy. Cornell University Press, 2009.]',
     '[LINK:https://millercenter.org/president/carter/impact-and-legacy|Miller Center, University of Virginia. "Jimmy Carter: Impact and Legacy." Accessed 2025.]',
     '[LINK:https://www.history.com/topics/us-presidents/jimmy-carter|History.com. "Jimmy Carter: Facts, Presidency & Quotes." Updated February 2025.]',
     '[LINK:https://www.whitehousehistory.org/bios/jimmy-carter|White House Historical Association. "Jimmy Carter." Accessed 2025.]',

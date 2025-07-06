@@ -5,6 +5,8 @@ export const johnTyler = {
   president: 'John Tyler',
   subheader: 'His Accidency',
   years: '1841-1845',
+  predecessor: 'William Henry Harrison',
+  successor: 'James K. Polk',
   letter: {
     header: 'Letter to James K. Polk',
     content: `My Dear Polk,

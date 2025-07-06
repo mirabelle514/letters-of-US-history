@@ -5,6 +5,8 @@ export const jamesMonroe = {
   president: 'James Monroe',
   subheader: 'The Era of Good Feelings',
   years: '1817-1825',
+  predecessor: 'James Madison',
+  successor: 'John Quincy Adams',
   letter: {
     header: 'Letter to John Quincy Adams',
     content: `My Dear Adams,

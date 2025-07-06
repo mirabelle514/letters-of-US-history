@@ -5,6 +5,8 @@ export const richardNixon = {
   president: 'Richard Nixon',
   subheader: 'The Imperial Presidency',
   years: '1969-1974',
+  predecessor: 'Lyndon B. Johnson',
+  successor: 'Gerald Ford',
   letter: {
     header: 'Letter to Gerald Ford',
     content: `Dear Jerry,
@@ -109,9 +111,9 @@ Nixon's resignation on August 9, 1974, represented the first voluntary departure
 
 Historical evaluation of Nixon has emphasized the contradiction between his foreign policy achievements and domestic failures, creating complex assessments of his legacy. Scholars generally praise his China opening and arms control initiatives while condemning his abuse of presidential power and obstruction of justice. Modern presidential rankings typically place Nixon in the bottom third due to Watergate, though some historians argue his foreign policy achievements deserve greater recognition. The Nixon presidency demonstrates both the potential for presidential leadership in foreign policy and the dangers of unchecked executive power in domestic affairs.`,
   sources: [
-    'Ambrose, Stephen E. Nixon. 3 vols. Simon & Schuster, 1987-1991.',
-    'Hoff, Joan. Nixon Reconsidered. BasicBooks, 1994.',
-    'Kutler, Stanley I. The Wars of Watergate. Knopf, 1990.',
+    '[LINK:https://archive.org/details/nixon0000ambr|Ambrose, Stephen E. Nixon. 3 vols. Simon & Schuster, 1987-1991.]',
+    '[LINK:https://archive.org/details/nixonreconsider00hoff|Hoff, Joan. Nixon Reconsidered. BasicBooks, 1994.]',
+    '[LINK:https://archive.org/details/warsofwatergate00kutl|Kutler, Stanley I. The Wars of Watergate. Knopf, 1990.]',
     '[LINK:https://millercenter.org/president/nixon/impact-and-legacy|Miller Center, University of Virginia. "Richard Nixon: Impact and Legacy." Accessed 2025.]',
     '[LINK:https://www.history.com/topics/us-presidents/richard-m-nixon|History.com. "Richard Nixon: Facts, Presidency & Watergate." Updated February 2025.]',
     '[LINK:https://www.whitehousehistory.org/bios/richard-nixon|White House Historical Association. "Richard Nixon." Accessed 2025.]',

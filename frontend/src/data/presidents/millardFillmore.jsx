@@ -5,6 +5,8 @@ export const millardFillmore = {
   president: 'Millard Fillmore',
   subheader: 'The Compromise President',
   years: '1850-1853',
+  predecessor: 'Zachary Taylor',
+  successor: 'Franklin Pierce',
   letter: {
     header: 'Letter to Franklin Pierce',
     content: `Dear General Pierce,

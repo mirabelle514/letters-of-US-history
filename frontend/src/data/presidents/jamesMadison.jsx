@@ -5,6 +5,8 @@ export const jamesMadison = {
   president: 'James Madison',
   subheader: 'The Father of the Constitution',
   years: '1809-1817',
+  predecessor: 'Thomas Jefferson',
+  successor: 'James Monroe',
   letter: {
     header: 'Letter to James Monroe',
     content: `My Dear Monroe,
@@ -127,7 +129,11 @@ Despite criticism of his leadership style and early military disasters, historia
     '[LINK:https://www.montpelier.org/learn/the-life-of-james-madison/|Montpelier. "The Life of James Madison." Updated 2025.]',
     '[LINK:https://time.com/4497184/constitution-day-james-madison-interview/|TIME Magazine. "Interview with James Madison (Constitution Legacy Reflection)." Updated 2025.]',
     '[LINK:https://www.philadelphiafed.org/-/media/frbp/assets/institutional/education/publications/second-bank-of-the-united-states.pdf|Philadelphia Fed. "Second Bank and Constitutional Issues." Updated 2025.]',
-    '[LINK:https://www.timesunion.com/opinion/article/commentary-trump-constitution-20376099.php|Times Union. "Dolley Madison and Constitution." Updated 2025.]'
+    '[LINK:https://www.timesunion.com/opinion/article/commentary-trump-constitution-20376099.php|Times Union. "Dolley Madison and Constitution." Updated 2025.]',
+    '[LINK:https://www.whitehousehistory.org/bios/james-madison|White House Historical Association. "James Madison." Accessed 2025.]',
+    '[LINK:https://en.wikipedia.org/wiki/Presidency_of_James_Madison|Wikipedia. "Presidency of James Madison." Updated 2025.]',
+    '[LINK:https://www.britannica.com/biography/James-Madison|Britannica. "James Madison." Updated 2025.]',
+    '[LINK:https://www.history.com/topics/us-presidents/james-madison|History.com. "James Madison." Updated 2025.]'
   ]
 };
 

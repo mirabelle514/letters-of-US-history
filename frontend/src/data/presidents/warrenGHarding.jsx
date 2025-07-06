@@ -5,6 +5,8 @@ export const warrenGHarding = {
   president: 'Warren G. Harding',
   subheader: 'Return to Normalcy',
   years: '1921-1923',
+  predecessor: 'Woodrow Wilson',
+  successor: 'Calvin Coolidge',
   letter: {
     header: 'Letter to Calvin Coolidge',
     content: `My Dear Calvin,
@@ -144,9 +146,9 @@ The Harding presidency demonstrated the importance of presidential oversight and
     '[LINK:https://www.history.com/topics/us-presidents/warren-g-harding|History.com. "Warren G. Harding: Facts, Presidency & Death." Updated February 2025.]',
     '[LINK:https://www.whitehousehistory.org/bios/warren-g-harding|White House Historical Association. "Warren G. Harding." Accessed 2025.]',
     '[LINK:https://en.wikipedia.org/wiki/Presidency_of_Warren_G._Harding|Wikipedia. "Presidency of Warren G. Harding." Updated 2025.]',
-    'Murray, Robert K. The Harding Era: Warren G. Harding and His Administration. University of Minnesota Press, 1969.',
-    'Russell, Francis. The Shadow of Blooming Grove: Warren G. Harding in His Times. McGraw-Hill, 1968.',
-    'Ferrell, Robert H. The Strange Deaths of President Harding. University of Missouri Press, 1996.'
+    '[LINK:https://archive.org/details/hardingera00murr|Murray, Robert K. The Harding Era: Warren G. Harding and His Administration. University of Minnesota Press, 1969.]',
+    '[LINK:https://archive.org/details/shadowofblooming00russ|Russell, Francis. The Shadow of Blooming Grove: Warren G. Harding in His Times. McGraw-Hill, 1968.]',
+    '[LINK:https://archive.org/details/strangedeathsofpr00ferr|Ferrell, Robert H. The Strange Deaths of President Harding. University of Missouri Press, 1996.]'
   ]
 };
 

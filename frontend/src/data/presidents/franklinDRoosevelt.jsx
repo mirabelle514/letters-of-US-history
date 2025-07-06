@@ -5,6 +5,8 @@ export const franklinDRoosevelt = {
   president: 'Franklin D. Roosevelt',
   subheader: 'The New Deal',
   years: '1933-1945',
+  predecessor: 'Herbert Hoover',
+  successor: 'Harry S. Truman',
   letter: {
     header: 'Letter to Harry S. Truman',
     content: `My Dear Harry,
@@ -122,9 +124,9 @@ Your predecessor in democratic faith, Franklin D. Roosevelt`
 - Conservative critics argue that Roosevelt's expansion of federal power undermined constitutional principles and individual liberty, while liberal critics fault his failure to address racial injustice more aggressively.
 - Modern assessments recognize Roosevelt as the creator of modern American liberalism and the architect of America's emergence as a global superpower.`,
   sources: [
-    'Leuchtenburg, William E. Franklin D. Roosevelt and the New Deal, 1932-1940. Harper & Row, 1963.',
-    'Burns, James MacGregor. Roosevelt: The Lion and the Fox and Roosevelt: The Soldier of Freedom. Harcourt Brace Jovanovich, 1956, 1970.',
-    'Kennedy, David M. Freedom from Fear: The American People in Depression and War, 1929-1945. Oxford University Press, 1999.',
+    '[LINK:https://archive.org/details/franklindrooseve00leuc|Leuchtenburg, William E. Franklin D. Roosevelt and the New Deal, 1932-1940. Harper & Row, 1963.]',
+    '[LINK:https://archive.org/details/rooseveltlionfox00burn|Burns, James MacGregor. Roosevelt: The Lion and the Fox and Roosevelt: The Soldier of Freedom. Harcourt Brace Jovanovich, 1956, 1970.]',
+    '[LINK:https://global.oup.com/academic/product/freedom-from-fear-9780195038347|Kennedy, David M. Freedom from Fear: The American People in Depression and War, 1929-1945. Oxford University Press, 1999.]',
     '[LINK:https://millercenter.org/president/fdroosevelt/impact-and-legacy|Miller Center, University of Virginia. "Franklin D. Roosevelt: Impact and Legacy." Accessed 2025.]',
     '[LINK:https://www.history.com/topics/us-presidents/franklin-d-roosevelt|History.com. "Franklin D. Roosevelt: Facts, Presidency & Death." Updated February 2025.]',
     '[LINK:https://www.whitehousehistory.org/bios/franklin-d-roosevelt|White House Historical Association. "Franklin D. Roosevelt." Accessed 2025.]',

@@ -2,24 +2,30 @@ import React from 'react';
 
 export const georgeHWBush = {
   presidentNumber: 41,
-  president: 'George H.W. Bush',
+  president: 'George H. W. Bush',
   subheader: 'A Thousand Points of Light',
   years: '1989-1993',
+  predecessor: 'Ronald Reagan',
+  successor: 'Bill Clinton',
+  disclaimer: {
+    text: 'This document is the verified original.',
+    link: 'https://ballotpedia.org/Letters_left_by_U.S._presidents_to_their_successors'
+  },
   letter: {
     header: 'Letter to Bill Clinton',
-    content: `Dear Governor Clinton,
-I transfer to you a world transformed by the peaceful end of the Cold War and the successful conclusion of the Gulf War, yet I leave with regret that domestic economic problems have overshadowed these historic achievements. The collapse of the Soviet Union has left America as the world's sole superpower, with responsibilities and opportunities that will test your wisdom and resolve.
+    content: `Dear Bill,
 
-The Berlin Wall has fallen, Germany has reunited, and the Soviet Empire has dissolved without a shot being fired. Our careful management of these epochal changes has prevented the chaos and conflict that many predicted. Yet the end of the Cold War has created new challenges—ethnic conflicts, nuclear proliferation, and regional instability that require sustained American leadership.
+When I walked into this office just now I felt the same sense of wonder and respect that I felt four years ago. I know you will feel that, too.
 
-The Gulf War demonstrated America's ability to lead international coalitions and achieve decisive military victory through technological superiority and careful planning. Yet the decision to end hostilities without removing Saddam Hussein may prove problematic for future administrations. Sometimes prudence and restraint prevent greater future difficulties.
-Domestically, I confess disappointment that the economic recession has undermined public confidence in our policies and leadership. My decision to accept tax increases as part of the 1990 budget agreement, while fiscally responsible, violated my campaign pledge and contributed to perceptions of political opportunism.
+I wish you great happiness here. I never felt the loneliness some Presidents have described.
 
-The Americans with Disabilities Act and Clean Air Act represent significant domestic achievements that demonstrate government's proper role in protecting civil rights and environmental quality. Yet I have learned that foreign policy expertise cannot compensate for perceived indifference to domestic concerns.
+There will be very tough times, made even more difficult by criticism you may not think is fair. I’m not a very good one to give advice; but just don’t let the critics discourage you or push you off course.
 
-You inherit the burden of global leadership at a time when Americans are increasingly focused on domestic problems. The challenge is to maintain American international engagement while addressing the economic and social concerns that affect ordinary citizens.
+You will be our President when you read this note. I wish you well. I wish your family well.
 
-Your predecessor in the burden of leadership, George Bush`
+Your success now is our country’s success. I am rooting hard for you.
+
+Good Luck — George`
   },
   biographical: [
     'Born June 12, 1924, in Milton, Massachusetts',
@@ -117,9 +123,9 @@ Bush's extensive government experience and personal relationships with world lea
 
 Historical evaluation of Bush has been generally positive, particularly regarding his management of Cold War's end and Gulf War victory. Scholars praise his foreign policy expertise and steady leadership during transformative international changes while noting his domestic political limitations. Modern presidential rankings typically place Bush in the upper-middle tier, recognizing his significant foreign policy achievements while acknowledging electoral defeat and domestic challenges. The Bush presidency demonstrates how foreign policy expertise and international success may not translate into domestic political effectiveness.`,
   sources: [
-    'Meacham, Jon. Destiny and Power: The American Odyssey of George Herbert Walker Bush. Random House, 2015.',
-    'Greene, John Robert. The Presidency of George Bush. University Press of Kansas, 2000.',
-    'Engel, Jeffrey A. When the World Seemed New: George H.W. Bush and the End of the Cold War. Houghton Mifflin Harcourt, 2017.',
+    '[LINK:https://www.penguinrandomhouse.com/books/30004/destiny-and-power-by-jon-meacham/|Meacham, Jon. Destiny and Power: The American Odyssey of George Herbert Walker Bush. Random House, 2015.]',
+    '[LINK:https://kansaspress.ku.edu/978-0-7006-0993-7.html|Greene, John Robert. The Presidency of George Bush. University Press of Kansas, 2000.]',
+    '[LINK:https://www.hachettebookgroup.com/titles/jeffrey-a-engel/when-the-world-seemed-new/9780547564754/|Engel, Jeffrey A. When the World Seemed New: George H.W. Bush and the End of the Cold War. Houghton Mifflin Harcourt, 2017.]',
     '[LINK:https://millercenter.org/president/bush/impact-and-legacy|Miller Center, University of Virginia. "George H.W. Bush: Impact and Legacy." Accessed 2025.]',
     '[LINK:https://www.history.com/topics/us-presidents/george-h-w-bush|History.com. "George H.W. Bush: Facts, Presidency & Death." Updated February 2025.]',
     '[LINK:https://www.whitehousehistory.org/bios/george-h-w-bush|White House Historical Association. "George H.W. Bush." Accessed 2025.]',

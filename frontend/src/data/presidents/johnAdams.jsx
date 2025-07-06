@@ -3,8 +3,10 @@ import React from 'react';
 export const johnAdams = {
   presidentNumber: 2,
   president: 'John Adams',
-  subheader: 'The Second President',
+  subheader: 'The Atlas of Independence',
   years: '1797-1801',
+  predecessor: 'George Washington',
+  successor: 'Thomas Jefferson',
   letter: {
     header: 'Letter to Thomas Jefferson',
     content: `My Dear Jefferson,
@@ -101,10 +103,10 @@ Polls of historians and political scientists have generally ranked Adams as an a
     '[LINK:https://millercenter.org/president/adams/impact-and-legacy|Miller Center, University of Virginia. "John Adams: Impact and Legacy." Accessed 2025.]',
     '[LINK:https://www.whitehousehistory.org/bios/john-adams|White House Historical Association. "John Adams Biography."]',
     '[LINK:https://en.wikipedia.org/wiki/Presidency_of_John_Adams|Wikipedia. "Presidency of John Adams." Updated April 2025.]',
-    '[LINK:https://southern.libguides.com/|Southern University Libraries. "John Adams." Accessed 2025.]',
-    '[LINK:https://www.britannica.com/|Britannica. "John Adams." Accessed 2025.]',
-    '[LINK:https://jackmillercenter.org/|Jack Miller Center. "John Adams." Accessed 2025.]',
-    '[LINK:https://firstyear2017.org/|First Year 2017. "John Adams." Accessed 2025.]'
+    '[LINK:https://southern.libguides.com/presidents/john-adams|Southern University Libraries. "John Adams." Accessed 2025.]',
+    '[LINK:https://www.britannica.com/biography/John-Adams-president-of-United-States|Britannica. "John Adams." Accessed 2025.]',
+    '[LINK:https://jackmillercenter.org/founding-fathers/john-adams/|Jack Miller Center. "John Adams." Accessed 2025.]',
+    '[LINK:https://founders.archives.gov/documents/Adams|National Archives Founders Online. "John Adams Papers." Accessed 2025.]'
   ]
 }; 
 

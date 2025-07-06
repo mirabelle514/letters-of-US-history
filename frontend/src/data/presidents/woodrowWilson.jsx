@@ -5,6 +5,8 @@ export const woodrowWilson = {
   president: 'Woodrow Wilson',
   subheader: 'The Professor President',
   years: '1913-1921',
+  predecessor: 'William Howard Taft',
+  successor: 'Warren G. Harding',
   letter: {
     header: 'Letter to Warren G. Harding',
     content: `Senator Harding,
@@ -137,9 +139,9 @@ Modern presidential rankings typically place Wilson among the near-great preside
     '[LINK:https://www.history.com/topics/us-presidents/woodrow-wilson|History.com. "Woodrow Wilson: Facts, Presidency & Quotes." Updated February 2025.]',
     '[LINK:https://www.whitehousehistory.org/bios/woodrow-wilson|White House Historical Association. "Woodrow Wilson." Accessed 2025.]',
     '[LINK:https://en.wikipedia.org/wiki/Presidency_of_Woodrow_Wilson|Wikipedia. "Presidency of Woodrow Wilson." Updated 2025.]',
-    'Cooper, John Milton Jr. Woodrow Wilson: A Biography. Knopf, 2009.',
-    'Link, Arthur S. Wilson. 5 vols. Princeton University Press, 1947-1965.',
-    'Clements, Kendrick A. The Presidency of Woodrow Wilson. University Press of Kansas, 1992.'
+    '[LINK:https://archive.org/details/woodrowwilsonbio0000coop|Cooper, John Milton Jr. Woodrow Wilson: A Biography. Knopf, 2009.]',
+    '[LINK:https://archive.org/details/wilson0000link|Link, Arthur S. Wilson. 5 vols. Princeton University Press, 1947-1965.]',
+    '[LINK:https://kansaspress.ku.edu/978-0-7006-0524-3.html|Clements, Kendrick A. The Presidency of Woodrow Wilson. University Press of Kansas, 1992.]'
   ]
 };
 

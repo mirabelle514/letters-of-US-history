@@ -15,7 +15,6 @@ function Navigation() {
         <ul className="nav-links">
           <li><Link to="/">All Presidents</Link></li>
           <li><Link to="/timeline">Timeline</Link></li>
-          <li><Link to="/template">Style Template</Link></li>
           <li><Link to="/about">About</Link></li>
         </ul>
       </div>

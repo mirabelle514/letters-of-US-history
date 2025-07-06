@@ -5,6 +5,8 @@ export const theodoreRoosevelt = {
   president: 'Theodore Roosevelt',
   subheader: 'The Trust Buster',
   years: '1901-1909',
+  predecessor: 'William McKinley',
+  successor: 'William Howard Taft',
   letter: {
     header: 'Letter to William Howard Taft',
     content: `Bully, Will!
@@ -145,9 +147,9 @@ Modern presidential rankings consistently place Roosevelt among the greatest pre
     '[LINK:https://www.britannica.com/event/Theodore-Roosevelt-presidency|Britannica. "Theodore Roosevelt presidency." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Theodore-Roosevelt-impeachment|Britannica. "Theodore Roosevelt impeachment." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Theodore-Roosevelt-presidency|Britannica. "Theodore Roosevelt presidency." Updated 2025.]',
-    'Morris, Edmund. Theodore Rex. Random House, 2001.',
-    'Gould, Lewis L. The Presidency of Theodore Roosevelt. University Press of Kansas, 1991.',
-    'Brands, H.W. T.R.: The Last Romantic. Basic Books, 1997.'
+    '[LINK:https://archive.org/details/theodorerex0000morr|Morris, Edmund. Theodore Rex. Random House, 2001.]',
+    '[LINK:https://kansaspress.ku.edu/978-0-7006-0514-9.html|Gould, Lewis L. The Presidency of Theodore Roosevelt. University Press of Kansas, 1991.]',
+    '[LINK:https://archive.org/details/trlastromantic00bran|Brands, H.W. T.R.: The Last Romantic. Basic Books, 1997.]'
   ]
 };
 

@@ -5,23 +5,27 @@ export const billClinton = {
   president: 'Bill Clinton',
   subheader: 'The Comeback Kid',
   years: '1993-2001',
+  predecessor: 'George H.W. Bush',
+  successor: 'George W. Bush',
+  disclaimer: {
+    text: 'This document is the verified original.',
+    link: 'https://www.georgewbushlibrary.gov/research/topic-guides/transition-letters'
+  },
   letter: {
     header: 'Letter to George W. Bush',
     content: `Dear George,
-I leave you a presidency that has overseen the longest economic expansion in American history and the emergence of new technologies that have transformed how Americans work, communicate, and live. Yet I depart with regret that personal failures and partisan conflicts have overshadowed policy achievements and left our politics more polarized than when I arrived.
 
-The budget deficits that plagued the 1980s have been transformed into surpluses through a combination of economic growth, fiscal discipline, and debt reduction. The welfare system has been reformed to emphasize work over dependency, crime rates have fallen dramatically, and American leadership in the global economy has been reinforced through trade agreements and technological innovation.
+Today you embark on the greatest venture, with the greatest honor, that can come to an American citizen.
 
-My greatest regret is that impeachment has damaged the presidency and deepened partisan divisions that threaten democratic governance. Personal mistakes became constitutional crises, and I fear that future presidents will face similar prosecutorial zeal whenever political opponents control Congress. The presidency must be protected from partisan assault, even when the occupant deserves criticism.
+Like me, you are especially fortunate to lead our country in a time of profound and largely positive change, when old questions, not just about the role government, but about the very nature of our nation, must be answered anew.
 
-In foreign affairs, we have worked to expand NATO, promote democracy, and address humanitarian crises while maintaining peace and prosperity. Yet the threats of international terrorism and weapons proliferation require sustained attention that domestic political considerations may not permit.
+You lead a proud, decent, good people. And from this day you are President of all of us. I salute you and wish you success and much happiness.
 
-The Republican control of Congress has forced bipartisan cooperation on welfare reform, crime legislation, and fiscal responsibility. Perhaps divided government, though frustrating, produces better policy than unified party control. Future presidents must learn to work across party lines or risk governmental paralysis.
+The burdens you now shoulder are great but often exaggerated. The sheer joy of doing what you believe is right is inexpressible.
 
-The American people remain optimistic about their future despite their frustration with their politicians. Bridge-building and pragmatic problem-solving serve the public interest better than ideological purity or partisan combat.
+My prayers are with you and your family. Godspeed.
 
-Your predecessor in the burden of leadership,
-Bill Clinton`
+Sincerely, Bill`
   },
   biographical: [
     'Born August 19, 1946, in Hope, Arkansas',
@@ -179,9 +183,9 @@ The Clinton presidency demonstrates both the potential for centrist governance a
     '[LINK:https://www.history.com/topics/us-presidents/bill-clinton|History.com. "Bill Clinton: Facts, Presidency & Impeachment." Updated February 2025.]',
     '[LINK:https://www.whitehousehistory.org/bios/william-j-clinton|White House Historical Association. "Bill Clinton." Accessed 2025.]',
     '[LINK:https://en.wikipedia.org/wiki/Presidency_of_Bill_Clinton|Wikipedia. "Presidency of Bill Clinton." Updated 2025.]',
-    'Branch, Taylor. The Clinton Tapes: Wrestling History with the President. Simon & Schuster, 2009.',
-    'Harris, John F. The Survivor: Bill Clinton in the White House. Random House, 2005.',
-    'Klein, Joe. The Natural: The Misunderstood Presidency of Bill Clinton. Doubleday, 2002.',
+    '[LINK:https://www.simonandschuster.com/books/The-Clinton-Tapes/Taylor-Branch/9781416552866|Branch, Taylor. The Clinton Tapes: Wrestling History with the President. Simon & Schuster, 2009.]',
+    '[LINK:https://www.penguinrandomhouse.com/books/30000/the-survivor-by-john-f-harris/|Harris, John F. The Survivor: Bill Clinton in the White House. Random House, 2005.]',
+    '[LINK:https://www.penguinrandomhouse.com/books/30001/the-natural-by-joe-klein/|Klein, Joe. The Natural: The Misunderstood Presidency of Bill Clinton. Doubleday, 2002.]',
     'Miller Center, University of Virginia. "William J. Clinton: Impact and Legacy."'
   ]
 };

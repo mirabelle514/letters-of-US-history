@@ -5,6 +5,8 @@ export const zacharyTaylor = {
   president: 'Zachary Taylor',
   subheader: 'Old Rough and Ready',
   years: '1849-1850',
+  predecessor: 'James K. Polk',
+  successor: 'Millard Fillmore',
   letter: {
     header: 'Letter to Millard Fillmore',
     content: `My Dear Fillmore,

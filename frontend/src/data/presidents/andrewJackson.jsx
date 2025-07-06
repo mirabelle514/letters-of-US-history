@@ -5,6 +5,8 @@ export const andrewJackson = {
   president: 'Andrew Jackson',
   subheader: 'Old Hickory',
   years: '1829-1837',
+  predecessor: 'John Quincy Adams',
+  successor: 'Martin Van Buren',
   letter: {
     header: 'Letter to Martin Van Buren',
     content: `My Dear Van Buren,
@@ -141,7 +143,12 @@ Modern assessments increasingly emphasize Jackson's contradictions: a champion o
     '[LINK:https://millercenter.org/president/jackson/key-events|Miller Center, University of Virginia. "Andrew Jackson: Key Events." Updated August 2023.]',
     '[LINK:https://www.britannica.com/event/nullification-crisis|Britannica. "Nullification Crisis." Updated July 1998.]',
     '[LINK:https://www.ushistory.org/us/24c.asp|U.S. History Online. "The Nullification Crisis and the Bank War." May 2014.]',
-    '[LINK:https://www.studentsofhistory.com/andrew-jackson-national-bank|Students of History. "Andrew Jackson Vs. The National Bank, Economy, Indian Removal."]'
+    '[LINK:https://www.studentsofhistory.com/andrew-jackson-national-bank|Students of History. "Andrew Jackson Vs. The National Bank, Economy, Indian Removal."]',
+    '[LINK:https://www.whitehousehistory.org/bios/andrew-jackson|White House Historical Association. "Andrew Jackson." Accessed 2025.]',
+    '[LINK:https://en.wikipedia.org/wiki/Presidency_of_Andrew_Jackson|Wikipedia. "Presidency of Andrew Jackson." Updated 2025.]',
+    '[LINK:https://www.britannica.com/biography/Andrew-Jackson|Britannica. "Andrew Jackson." Updated 2025.]',
+    '[LINK:https://www.history.com/topics/us-presidents/andrew-jackson|History.com. "Andrew Jackson." Updated 2025.]',
+    '[LINK:https://thehermitage.com/|The Hermitage. "Andrew Jackson\'s Home." Accessed 2025.]'
   ]
 };
 

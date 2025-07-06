@@ -5,6 +5,8 @@ export const rutherfordBHayes = {
   president: 'Rutherford B. Hayes',
   subheader: 'His Fraudulency',
   years: '1877-1881',
+  predecessor: 'Ulysses S. Grant',
+  successor: 'James A. Garfield',
   letter: {
     header: 'Letter to Chester A. Arthur',
     content: `My Dear Garfield,
@@ -134,8 +136,8 @@ Presidential rankings typically place Hayes in the middle tier, recognizing his 
     '[LINK:https://www.britannica.com/event/Rutherford-B-Hayes-presidency|Britannica. "Rutherford B. Hayes presidency." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Rutherford-B-Hayes-impeachment|Britannica. "Rutherford B. Hayes impeachment." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Rutherford-B-Hayes-presidency|Britannica. "Rutherford B. Hayes presidency." Updated 2025.]',
-    'Barnard, Harry. Rutherford B. Hayes and His America. Bobbs-Merrill, 1954.',
-    'Davison, Kenneth E. The Presidency of Rutherford B. Hayes. Greenwood Press, 1972.',
+    '[LINK:https://archive.org/details/rutherfordbhayes00barn|Barnard, Harry. Rutherford B. Hayes and His America. Bobbs-Merrill, 1954.]',
+    '[LINK:https://archive.org/details/presidencyofruth00davi|Davison, Kenneth E. The Presidency of Rutherford B. Hayes. Greenwood Press, 1972.]',
     'Peskin, Allan. "Rutherford B. Hayes." In The American Presidency, edited by Alan Brinkley and Davis Dyer.'
   ]
 };

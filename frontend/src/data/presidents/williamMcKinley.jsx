@@ -5,6 +5,8 @@ export const williamMcKinley = {
   president: 'William McKinley',
   subheader: 'The Idol of Ohio',
   years: '1897-1901',
+  predecessor: 'Grover Cleveland',
+  successor: 'Theodore Roosevelt',
   letter: {
     header: 'Letter to Theodore Roosevelt',
     content: `My Dear Theodore,
@@ -130,9 +132,9 @@ McKinley's assassination also raises questions about what his presidency might h
     '[LINK:https://www.britannica.com/event/William-McKinley-presidency|Britannica. "William McKinley presidency." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/William-McKinley-impeachment|Britannica. "William McKinley impeachment." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/William-McKinley-presidency|Britannica. "William McKinley presidency." Updated 2025.]',
-    'Gould, Lewis L. The Presidency of William McKinley. University Press of Kansas, 1980.',
-    'Phillips, Kevin. William McKinley. Times Books, 2003.',
-    'Trask, David F. The War with Spain in 1898. Macmillan, 1981.'
+    '[LINK:https://kansaspress.ku.edu/978-0-7006-0206-8.html|Gould, Lewis L. The Presidency of William McKinley. University Press of Kansas, 1980.]',
+    '[LINK:https://archive.org/details/williammckinley00phil|Phillips, Kevin. William McKinley. Times Books, 2003.]',
+    '[LINK:https://archive.org/details/warwithspainin1800tras|Trask, David F. The War with Spain in 1898. Macmillan, 1981.]'
   ]
 };
 

@@ -5,6 +5,8 @@ export const calvinCoolidge = {
   president: 'Calvin Coolidge',
   subheader: 'Silent Cal',
   years: '1923-1929',
+  predecessor: 'Warren G. Harding',
+  successor: 'Herbert Hoover',
   letter: {
     header: 'Letter to Herbert Hoover',
     content: `Mr. Hoover,
@@ -174,9 +176,9 @@ Your predecessor in constitutional duty, Calvin Coolidge`
     '[LINK:https://www.britannica.com/event/Calvin-Coolidge-presidency|Britannica. "Calvin Coolidge presidency." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Calvin-Coolidge-impeachment|Britannica. "Calvin Coolidge impeachment." Updated 2025.]',
     '[LINK:https://www.britannica.com/event/Calvin-Coolidge-presidency|Britannica. "Calvin Coolidge presidency." Updated 2025.]',
-    'Sobel, Robert. Coolidge: An American Enigma. Regnery Publishing, 1998.',
-    'Greenberg, David. Calvin Coolidge. Times Books, 2006.',
-    'McCoy, Donald R. Calvin Coolidge: The Quiet President. Macmillan, 1967.'
+    '[LINK:https://archive.org/details/coolidgeamerican00sobe|Sobel, Robert. Coolidge: An American Enigma. Regnery Publishing, 1998.]',
+    '[LINK:https://archive.org/details/calvincoolidge00gree|Greenberg, David. Calvin Coolidge. Times Books, 2006.]',
+    '[LINK:https://archive.org/details/calvincoolidgequi00mcco|McCoy, Donald R. Calvin Coolidge: The Quiet President. Macmillan, 1967.]'
   ]
 };
 
